@@ -58,8 +58,17 @@ flex: 3
 
 .ivf {
   position: absolute;
-  top: 60%;
-  left: 25%;
+  top: 50%;
+  left: 42%;
+  width: 20vw;
+  height: auto;
+  z-index: 1;
+}
+
+.hair {
+  position: absolute;
+  top: 65%;
+  left: 15%;
   width: 20vw;
   height: auto;
   z-index: 1;
