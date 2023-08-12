@@ -1,6 +1,6 @@
 .navbar {
   background-image: url("../images/banner-bg.png");
-  background-size: contain;
+  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -10,6 +10,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 1vw;
   background-color: #f7f7f7;
   padding: 25px 0;
   z-index: 2;
@@ -17,12 +18,19 @@
 }
 
 .navbar ul {
+  position: fixed;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  text-align: right; /* Align the text to the right */
-  width: 50vw;
+  text-align: right;
+  display: flex; /* Add this line to enable flexbox */
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Align items vertically */
+  width: auto; /* Set width to auto */
+  right: 1vw; /* Adjust as needed */
 }
+
+
 
 .navbar li {
   display: inline-block;
@@ -53,7 +61,7 @@
 }
 
 .middle-logo img {
-  width: 50px; /* Adjust the width to your desired size */
+  width: 6vw; /* Adjust the width to your desired size */
   height: auto; /* Maintain the aspect ratio */
 }
 
@@ -70,4 +78,16 @@
   width: 100%;
   height: 2px; /* Adjust the thickness of the underline */
   background-color: #e5017d;
+}
+
+.logo {
+  position: absolute;
+  left: calc((1vw + 3vh)*4);;
+  top: 1vw;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  height: calc((0.8vw + 1vh)*(2.8)); /* Adjust the width to your desired size */
+  width: auto; /* Maintain the aspect ratio */
 }
