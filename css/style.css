@@ -1,0 +1,59 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+  }
+  
+  /* Style the sections */
+  .content {
+    margin-top: 60px;
+  }
+  
+  .section {
+    height: 90vh;
+    padding: 50px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .section h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .logo {
+    margin-right: 10px; /* Adjust the margin as needed */
+    display: flex;
+    align-items: center;
+  }
+
+  .wpIcon {
+    position: fixed;
+    bottom: 5vw;
+    right: 5vw;
+  }
+  
+  .wpIcon img {
+    /* You can add styles to the image if needed */
+    width: 8vw; /* Adjust the size as per your requirements */
+    height: auto;
+    /* Add any other styles you want for the image */
+  }

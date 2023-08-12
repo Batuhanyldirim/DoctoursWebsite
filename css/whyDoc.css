@@ -1,0 +1,102 @@
+.whyDoc {
+  margin-top: 150px;
+  height: 40vw;
+  background-color: black;
+  font-family: 'Comfortaa';
+}
+
+.container {
+  padding-top: 5%;
+  margin: auto;
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+
+.column {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  background-color: #000000;
+  border: 3px solid #e5017d;
+  box-sizing: border-box;
+  height: calc((3.5hw + 1vh) * 15);
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  transition: 500ms;
+}
+
+.colLeft {
+  position: relative;
+  display: flex; 
+  align-items: center; 
+  flex-direction: column;
+/*   border: 1px solid #ccc;
+  border-radius: 5px; */
+  height: 100%;
+  width: 100%;
+  transition: 1000ms;
+}
+
+.colIcon {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  height: 5dvw;
+  transition: 1000ms;
+}
+
+.colLeft div {
+  color: #ffffff;
+  font-size: calc(((15vw + 1vh) * 0.08));
+}
+
+.altDesen {
+  margin-top: 40%;
+  margin-bottom: 40%;
+  width: calc(7vw + 1vh);
+}
+
+.colRight {
+  position: relative;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
+/*   border: 1px solid #ccc;
+  border-radius: 5px; */
+  height: 100%;
+  width: 70%;
+}
+
+.colRight div {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+  color: #ffffff;
+  font-size: calc(((15vw + 1vh) * 0.1));
+}
+
+.columnExpanded {
+  flex: 4;
+}
+
+.columnExpanded .colLeft {
+  width: 30%;
+  justify-content: center;
+}
+
+.colRight.collapsed {
+  display: none;
+}
+
+.infoText{
+  font-size: calc(((15vw + 1vh) * 0.07));
+}
+
+.infoText.expanded{
+  display: none;
+}
+
+
+

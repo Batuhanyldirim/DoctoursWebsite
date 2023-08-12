@@ -1,0 +1,252 @@
+#dentalHealth {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-family: 'Comfortaa';
+}
+
+.dentalHealth {
+    display:flex;
+    position: relative;
+    height: 40vw;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    margin-bottom: -60px;
+}
+
+.left {
+    flex: 3
+}
+
+
+.dentalImg1 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 7vw;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.dentalImg2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 7vw;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.dentalImg3 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    width: 7vw;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.dentalImg4 {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    width: 7vw;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+  
+.dentalImg5 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 7vw;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+
+.dentalImg6{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 7vw;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+  
+.dentalLogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20vw;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.services-text1 {
+    font-size: 1.5vw;
+    height: 40%;
+    width: 38%;
+    color: rgb(229,1,125);
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #e5017d;
+    border-radius: 45px;
+    justify-content: center;
+  }
+
+  .services-text1 .inner-text  {
+    padding-left: 5%;
+    padding-top: 40%;
+    margin: 0; /* Remove any default margins */
+    position: relative; /* Allow vertical alignment */
+    width: 70%;
+    transform: translateY(-50%);
+    text-align:left; 
+}
+
+  .services-text2 {
+    font-size: 1.5vw;
+    height: 50%;
+    width: 30%;
+    color: rgb(229,1,125);
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #e5017d;
+    border-radius: 45px;
+    justify-content: center;
+  }
+
+.services-text2 .inner-text  {
+    padding-left: 5%;
+    padding-top: 60%;
+    margin: 0; /* Remove any default margins */
+    position: relative; /* Allow vertical alignment */
+    width: 65%;
+    transform: translateY(-50%);
+    text-align:left; 
+}
+
+
+.services-text3 {
+    font-size: 1.5vw;
+    height: 35%;
+    width: 40%;
+    color: rgb(229,1,125);
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #e5017d;
+    border-radius: 45px;
+    justify-content: center;
+  }
+
+.services-text3 .inner-text  {
+    padding-left: 5%;
+    padding-top: 32%;
+    margin: 0; /* Remove any default margins */
+    position: relative; /* Allow vertical alignment */
+    width: 65%;
+    transform: translateY(-50%);
+    text-align:left; 
+}
+
+.services-text4 {
+    font-size: 1.5vw;
+    height: 35%;
+    width: 40%;
+    color: rgb(229,1,125);
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #e5017d;
+    border-radius: 45px;
+    justify-content: center;
+  }
+
+.services-text4 .inner-text  {
+    padding-left: 30%;
+    padding-top: 32%;
+    margin: 0; /* Remove any default margins */
+    position: relative; /* Allow vertical alignment */
+    width: 65%;
+    transform: translateY(-50%);
+    text-align:left; 
+}
+
+.services-text5 {
+    font-size: 1.5vw;
+    height: 45%;
+    width: 33%;
+    color: rgb(229,1,125);
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #e5017d;
+    border-radius: 45px;
+    justify-content: center;
+  }
+
+.services-text5 .inner-text  {
+    padding-left: 30%;
+    padding-top: 50%;
+    margin: 0; /* Remove any default margins */
+    position: relative; /* Allow vertical alignment */
+    width: 65%;
+    transform: translateY(-50%);
+    text-align:left; 
+}
+
+
+.services-text6 {
+    font-size: 1.5vw;
+    height: 35%;
+    width: 40%;
+    color: rgb(229,1,125);
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #e5017d;
+    border-radius: 45px;
+    justify-content: center;
+  }
+
+.services-text6 .inner-text  {
+    padding-left: 30%;
+    padding-top: 32%;
+    margin: 0; /* Remove any default margins */
+    position: relative; /* Allow vertical alignment */
+    width: 65%;
+    transform: translateY(-50%);
+    text-align:left; 
+}
+  
+
+  
+
+  
+

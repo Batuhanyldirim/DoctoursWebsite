@@ -1,0 +1,77 @@
+#our-services {
+  margin-top: 150px;
+      
+}
+
+.our-services {
+  display:flex;
+  position: relative;
+  height: 40vw;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  margin-bottom: -60px;
+  font-family: 'Comfortaa';
+}
+
+.left {
+flex: 3
+}
+
+.right {
+  flex: 2;
+  height: 100%;
+  background-image: url("../images/services-bg (alternative).png");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display:flex;
+  align-items: center;
+  padding-right: 8%;
+}
+
+.services-text {
+  font-size: calc(3.5vw + 1vh);
+  color: white;
+  padding-left: 55%;
+}
+
+.dental {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 20vw;
+  height: auto;
+  z-index: 1;
+}
+
+.plastic {
+  position: absolute;
+  top: 25%;
+  left: 9%;
+  width: 20vw;
+  height: auto;
+  z-index: 1;
+}
+
+.ivf {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  width: 20vw;
+  height: auto;
+  z-index: 1;
+}
+
+
+.services-image {
+  /* position: absolute; */
+  top: 0%;
+  right: 0%;
+  width: auto;
+  max-height: 100%; /* Limit the image height to match the .our-services height */
+}
+
+

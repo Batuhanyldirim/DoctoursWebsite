@@ -1,0 +1,41 @@
+/* blog-post.css */
+
+.blog-post-container {
+    margin-top: 5%;
+    display: flex;
+  }
+  
+  .blogLeft {
+    flex: 3;
+    padding: 5%;
+    border: 5px solid rgb(168, 32, 32);
+    box-sizing: border-box;
+  }
+  
+  .blogRight {
+    flex: 1;
+    padding: 20px;
+    border: 5px solid rgb(168, 32, 32);
+    box-sizing: border-box;
+  }
+  
+  .blog-post-container h2 {
+    font-size: 48px;
+    color: #d02373;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post-container p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+  }
+
+  .blogImage1{
+    width: 50%;
+    height: auto !important;
+    margin-left: 10%;
+  }
+  
+  /* Add more styles as needed */
+  

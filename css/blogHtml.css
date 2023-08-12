@@ -1,0 +1,142 @@
+.blogHtml {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-top: 100px;
+    font-family: 'Comfortaa';
+    overflow: hidden;
+  }
+
+  #blogPosts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    height: 100%;
+  }
+  
+  .evenPost,
+  .oddPost,
+  .lastEvenPost,
+  .lastOddPost {
+    flex-basis: 80%;
+    padding: 0;
+    position: relative;
+  }
+
+  .evenPost {
+    background-color: #ffffff;
+    border-left: 10px solid #000000;
+    border-bottom: 10px solid #000000;
+    border-right: none;
+  }
+  
+  .oddPost {
+    border-right: 10px solid #000000;
+    border-bottom: 10px solid #000000;
+    border-left: none;
+  }
+
+  .lastOddPost {
+    border-right: 10px solid #000000;
+    border-left: none;
+  }
+  .lastEvenPost {
+    background-color: #ffffff;
+    border-left: 10px solid #000000;
+    border-right: none;
+  }
+  
+  
+  .blogHtml > .LeftSide {
+    flex: 1;
+    position: relative; /* Change to relative position */
+    
+  }
+
+  .leftText {
+    position: fixed;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* border: 1px solid black;
+    box-sizing: border-box;  */ 
+    width: 18vw;
+    height: 10vw;
+  }
+  
+  .textLine1 {
+    position: relative;
+    top: 1vw;
+    color: rgb(0, 0, 0);
+    font-size: 3.2vw; /* Sets the font size for line 1 */
+    text-align: right; 
+  }
+  
+  .textLine2 {
+    top: -1vw;
+    position: relative;
+    color: red;
+    font-size: 4.8vw; /* Sets the font size for line 2 */
+    text-align: left;
+  }
+
+  .blogBack {
+    opacity: 0.3;
+    position: fixed; /* Set the image position to fixed */
+    top:25%; /* Adjust the top position as desired */
+    left: 15%; /* Adjust the left position as desired */
+    width: 26vw; /* Adjust the width as desired */
+    height: auto; /* Adjust the height as desired */
+  }
+  
+  .blogHtml > .rightSide {
+    flex: 2;
+    overflow-y: auto;
+    /* Add styling for the right side if needed */
+  }
+  
+.evenPost h2, .oddPost h2, 
+.lastEvenPost h2, .lastOddPost h2 {
+  margin-left: 5%;
+  color: rgb(229,1,125);
+  font-size: 1.8vw;
+}
+
+.evenPost p, .oddPost p,
+.lastEvenPost p, .lastOddPost p {
+  margin-left: 5%;
+  font-size: 1.2vw;
+}
+
+.evenPost a, .oddPost a,
+.lastEvenPost a, .lastOddPost a {
+  margin-left: 80%;
+  color: rgb(229,1,125);
+  font-size: 1vw;
+}
+
+.imageAndContentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.postImage {
+  width: 150px; /* Adjust the width of the image as desired */
+  height: auto; /* Adjust the height as desired */
+  margin-right: 10px; /* Add some space between image and content */
+}
+
+.postContent {
+  flex: 1;
+}
+
+/* Rest of your existing CSS styles for .evenPost, .oddPost, .lastEvenPost, .lastOddPost, etc. */
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+<!-- blog-post.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Post</title>
+    <link rel="icon" href="images/logo2.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/landing-page.css">
+    <link rel="stylesheet" href="css/our-services.css">
+    <link rel="stylesheet" href="css/blogHtml.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/whyDoc.css">
+    <link rel="stylesheet" href="css/blogSingle.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html#landing" class="logo">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+        <a href="#" class="middle-logo">
+          <img src="images/insta.png" alt="Middle Logo">
+        </a>
+        <ul>
+          <li><a href="index.html#our-services">Our Services</a></li>
+          <li><a href="index.html#section2">Before / After</a></li>
+          <li><a href="index.html#whyDoc">Why Doctours</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+  <div class="blog-post-container">
+  <div class="blogLeft">
+    <h2 id="blogTitle"></h2>
+    <p id="blogDescription"></p>
+    <img src="" alt="Image 3" class="blogImage1" id="blogImage1">
+
+
+  </div>
+  <div class="blogRight">
+
+  </div>
+
+
+  </div>
+
+  <script>
+
+var blogPostsData = [
+    {
+        id: "post1",
+        title: `Rhinoplasty: A New Nose, A New Confidence`,
+        description: `Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of...`,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingle.html?id=post1",
+        imageUrl: "images/insta.png"
+    },
+    {
+        id: "post2",
+        title: `What to Consider When Deciding on Rhinoplasty?`,
+        description: `Doing thorough research: Gather information about rhinoplasty from reliable sources. Learn about the 
+        rhinoplasty process, the recovery period, and potential risks. Conduct research to find a repu- table plastic surgeon 
+        and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
+        changing...`,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingle.html?id=post2",
+        imageUrl: "images/insta.png"
+    },
+    {
+        id: "post3",
+        title: `What to Consider When Deciding on Rhinoplasty?`,
+        description: `Doing thorough research: Gather information about rhinoplasty from reliable sources. Learn about the 
+        rhinoplasty process, the recovery period, and potential risks. Conduct research to find a repu- table plastic surgeon 
+        and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
+        changing...`,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingle.html?id=post2",
+        imageUrl: "images/insta.png"
+    },
+    {
+        id: "post4",
+        title: `What to Consider When Deciding on Rhinoplasty?`,
+        description: `Doing thorough research: Gather information about rhinoplasty from reliable sources. Learn about the 
+        rhinoplasty process, the recovery period, and potential risks. Conduct research to find a repu- table plastic surgeon 
+        and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
+        changing...`,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingle.html?id=post2",
+        imageUrl: "images/insta.png"
+    }];
+
+
+
+
+    // Retrieve the blog post ID from the URL parameter
+    var searchParams = new URLSearchParams(window.location.search);
+    var blogPostId = searchParams.get("id");
+
+    // Find the blog post data based on the ID
+    var blogPostData = blogPostsData.find(post => post.id === blogPostId);
+
+    // Populate the blog post content on the page
+    if (blogPostData) {
+        console.log({blogPostData})
+      document.getElementById("blogTitle").textContent = blogPostData.title;
+      document.getElementById("blogDescription").textContent = blogPostData.description;
+      document.getElementById("blogImage1").src = blogPostData.imageUrl;
+    } else {
+      // Handle the case when the blog post data is not found
+      // For example, show an error message or redirect to a 404 page
+    }
+  </script>
+
+  
+</body>
+</html>

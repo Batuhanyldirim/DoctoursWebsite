@@ -1,0 +1,85 @@
+.landing-page {
+    height: 55vw;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    margin-bottom: -60px;
+    font-family: 'Comfortaa';
+    position: relative;
+    overflow: hidden;
+  }
+
+  .video-bg {
+    /* Set the video to cover the entire container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .shaded-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shaded-side img {
+    width: calc((3vw + 1vh)*6); /* Adjust the width as desired */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+
+  .white-line {
+    position: relative;
+    top: 0;
+    left: 30%;
+    width: 1vw;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .text {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+  .section {
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: -50;
+  }
+
+  .small-photo {
+    position: absolute;
+    bottom: 20px; /* Adjust the bottom position as desired */
+    right: 20px; /* Adjust the right position as desired */
+  }
+  
+  .small-photo img {
+    width: 80px; /* Adjust the width of the small photo as desired */
+    height: auto; /* Maintain aspect ratio */
+  }

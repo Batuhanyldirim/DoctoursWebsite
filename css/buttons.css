@@ -1,0 +1,32 @@
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa';
+  }
+  
+  .btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:active {
+    transform: translateY(1px);
+  }
+  
