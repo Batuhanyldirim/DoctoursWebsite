@@ -16,7 +16,6 @@
   justify-content: center;
   flex: 1;
   text-align: center;
-  border-right: 15px solid #000000;
   height: 100%;
 }
 
@@ -36,38 +35,88 @@
 
 .blogUp {
   display: flex;
-  align-items: center;
-  flex: 5;
+  flex: 15;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  border-left: 15px solid #000000;
 }
 
-.blogPost {
+.blogPost3 {
   width: 28%;
-  height: 70%;
-  margin: 10px;
-  border: 4px solid #e5017d;
+  height: 90%;
   box-sizing: border-box;
 }
 
-.blogPost h1 {
-  padding: 3%;
-  font-size: 24px; /* Adjust the font size */
+.blogPost1 {
+  width: 28%;
+  height: 90%;
+  box-sizing: border-box;
+  position: relative;
 }
 
-.blogPost p {
-  padding: 3%;
-  font-size: 16px; /* Adjust the font size */
+.blogPost1::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 110%;
+  height: 50%;
+  width: 5px;
+  background-color: #000000;
+  transform: translateX(-50%);
+}
+
+.blogPost2 {
+  width: 28%;
+  height: 90%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.blogPost2::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 110%;
+  height: 50%;
+  width: 5px;
+  background-color: #000000;
+  transform: translateX(-50%);
+}
+
+.blogPost1 img, .blogPost3 img {
+width: 100%;
+}
+
+.blogPost2 img{
+width: 100%;
+position: absolute;
+left: 0;
+bottom: 0;
+}
+
+.blogPost1 h1, .blogPost2 h1, .blogPost3 h1{
+  padding-left: 3%;
+  font-size: 24px;
+  color: #e5017d;
+}
+
+.blogPost1 p, .blogPost2 p, .blogPost3 p{
+  padding-left: 3%;
+  font-size: 16px;
+}
+
+.blogPost1 a, .blogPost2 a, .blogPost3 a {
+  color: #e5017d;
+  padding-left: 3%;
 }
 
 
 .blogDown {
   display: flex;
   align-items: center;
-  flex: 2;
-  border-top: 15px solid #000000;
-  margin-top: 10px;
+  flex: 1;
+  background-color: #e5017d;
 }
 
 .blogDown a {
@@ -75,5 +124,5 @@
   font-weight: bold;
   padding-left: 5%;
   margin: 0;
-  color:#e5017d
+  color:#0f060b
 }
