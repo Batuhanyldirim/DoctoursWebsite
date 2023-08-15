@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
 #our-services {
   margin-top: 150px;
       
@@ -13,7 +16,7 @@
   background-size: cover;
   z-index: 0;
   margin-bottom: -60px;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', cursive;
 }
 
 .left {
@@ -36,6 +39,7 @@ flex: 3
   font-size: calc(3.5vw + 1vh);
   color: white;
   padding-left: 55%;
+  font-family: 'Comfortaa', cursive;
 }
 
 .dental {

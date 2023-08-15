@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .contactBig {
   height: 50vw;
   position: relative;
@@ -5,7 +6,7 @@
   margin-bottom: -60px;
   display: flex;
   flex-direction: row;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', cursive;
 }
 
 .contactBig .contLeft {
@@ -75,11 +76,13 @@
 .contactBig .contInfoLeft div {
   font-size: 26px;
   color: #ffffff;
+  font-family: 'Comfortaa', cursive;
 }
 
 .contactBig .contInfoRight div {
   font-size: 26px;
   color: #ffffff;
+  font-family: 'Comfortaa', cursive;
 }
 
 .contactBig .endSide .bigText {
@@ -182,11 +185,13 @@
   .contactSmall .contInfoLeft div {
     font-size: 26px;
     color: #ffffff;
+    font-family: 'Comfortaa', cursive;
   }
 
   .contactSmall .contInfoRight div {
     font-size: 26px;
     color: #ffffff;
+    font-family: 'Comfortaa', cursive;
   }
 
   .contactSmall .endSide .bigText {
@@ -194,7 +199,7 @@
     color: #ffffff;
     margin: 1px 0; 
     padding: 0; 
-    font-family: sans-serif;
+    font-family: 'Comfortaa', cursive;
   }
 
   .contactSmall .endSide .smallText {

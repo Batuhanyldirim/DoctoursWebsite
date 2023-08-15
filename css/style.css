@@ -1,9 +1,11 @@
-/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Comfortaa';
-  }
+    font-family: 'Comfortaa', cursive;
+    }
   
   /* Style the sections */
   .content {
@@ -23,11 +25,13 @@ body {
     color: #fff;
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
   }
   
   .section p {
     color: #fff;
     font-size: 18px;
+    font-family: 'Comfortaa', cursive;
   }
   
   html {

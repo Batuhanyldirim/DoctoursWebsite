@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 .blog {
   display: flex;
   align-items: center;
@@ -24,6 +26,7 @@
   font-weight: bold;
   margin: 0;
   color:#e5017d;
+  font-family: 'Comfortaa', cursive;
 }  
 
 .blogRight {
@@ -99,16 +102,19 @@ bottom: 0;
   padding-left: 3%;
   font-size: 24px;
   color: #e5017d;
+  font-family: 'Comfortaa', cursive;
 }
 
 .blogPost1 p, .blogPost2 p, .blogPost3 p{
   padding-left: 3%;
   font-size: 16px;
+  font-family: 'Comfortaa', cursive;
 }
 
 .blogPost1 a, .blogPost2 a, .blogPost3 a {
   color: #e5017d;
   padding-left: 3%;
+  font-family: 'Comfortaa', cursive;
 }
 
 
@@ -124,5 +130,6 @@ bottom: 0;
   font-weight: bold;
   padding-left: 5%;
   margin: 0;
-  color:#0f060b
+  color:#0f060b;
+  font-family: 'Comfortaa', cursive;
 }

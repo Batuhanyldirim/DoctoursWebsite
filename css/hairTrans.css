@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 #hairTrans {
     margin-top: 100px;
     margin-bottom: 60px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', cursive;
 }
 
 .hairTrans {
@@ -85,6 +87,7 @@
     border: 1px solid #e5017d;
     border-radius: 45px;
     justify-content: center;
+    font-family: 'Comfortaa', cursive;
   }
 
   .services-text1 .inner-text  {
@@ -95,6 +98,7 @@
     width: 70%;
     transform: translateY(-50%);
     text-align:left; 
+    font-family: 'Comfortaa', cursive;
 }
 
   .services-text2 {
@@ -110,6 +114,7 @@
     border: 1px solid #e5017d;
     border-radius: 45px;
     justify-content: center;
+    font-family: 'Comfortaa', cursive;
   }
 
 .services-text2 .inner-text  {
@@ -120,6 +125,7 @@
     width: 65%;
     transform: translateY(-50%);
     text-align:left; 
+    font-family: 'Comfortaa', cursive;
 }
 
 .services-text5 {
@@ -135,6 +141,7 @@
     border: 1px solid #e5017d;
     border-radius: 45px;
     justify-content: center;
+    font-family: 'Comfortaa', cursive;
   }
 
 .services-text5 .inner-text  {
@@ -145,6 +152,7 @@
     width: 65%;
     transform: translateY(-50%);
     text-align:left; 
+    font-family: 'Comfortaa', cursive;
 }
 
 
@@ -161,6 +169,7 @@
     border: 1px solid #e5017d;
     border-radius: 45px;
     justify-content: center;
+    font-family: 'Comfortaa', cursive;
   }
 
 .services-text6 .inner-text  {
@@ -171,6 +180,7 @@
     width: 65%;
     transform: translateY(-50%);
     text-align:left; 
+    font-family: 'Comfortaa', cursive;
 }
   
 
