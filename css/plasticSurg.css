@@ -172,7 +172,7 @@
     padding-top: 32%;
     margin: 0; /* Remove any default margins */
     position: relative; /* Allow vertical alignment */
-    width: 65%;
+    width: 70%;
     transform: translateY(-50%);
     text-align:left; 
     font-family: 'Comfortaa', cursive;
@@ -208,7 +208,7 @@
 .services-text5 {
     font-size: 1.5vw;
     height: 45%;
-    width: 33%;
+    width: 34%;
     color: rgb(229,1,125);
     display: none;
     position: absolute;
@@ -250,11 +250,11 @@
   }
 
 .services-text6 .inner-text  {
-    padding-left: 30%;
+    padding-left: 25%;
     padding-top: 32%;
     margin: 0; /* Remove any default margins */
     position: relative; /* Allow vertical alignment */
-    width: 65%;
+    width: 70%;
     transform: translateY(-50%);
     text-align:left; 
     font-family: 'Comfortaa', cursive;
