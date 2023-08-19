@@ -35,17 +35,21 @@
   background-size: cover;
   flex: 2;
   border-left: 10px solid #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
 }
 
 .contactBig .contInfoLeft {
   position: relative;
-  height: 13%;
+  height: calc((3.5vh - 1vw) * 8);;
   flex:1;
   display: flex;
   text-align: right;
   padding-right: 10px;
   flex-direction: column;
-  border-right: 2px solid #851e70;
+  border-right: 3px solid #E5017D;
   margin-top: 50%;
   /* border: 5px solid rgb(168, 32, 32);
   box-sizing: border-box; */
@@ -77,12 +81,14 @@
   font-size: 26px;
   color: #ffffff;
   font-family: 'Comfortaa', cursive;
+  margin-bottom: 10px;
 }
 
 .contactBig .contInfoRight div {
   font-size: 26px;
   color: #ffffff;
   font-family: 'Comfortaa', cursive;
+  margin-bottom: 10px;
 }
 
 .contactBig .endSide .bigText {
@@ -90,7 +96,7 @@
   color: #ffffff;
   margin: 1px 0; /* Adjust the vertical margin as needed */
   padding: 0; /* Remove any additional padding */
-  font-family: sans-serif;
+  font-family: 'Comfortaa', cursive;
   margin-top: 35%;
 }
 
@@ -106,6 +112,35 @@
   height: auto; /* Adjust the height of the icons as needed */
   margin-right: 5px; /* Add some space between icons */
 }
+.contactBig a , .contactSmall a{
+  text-decoration: none;
+}
+
+.contactBig .contRight .galataText {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  height: 2.5vw;
+  border-right: 3px solid #E5017D;
+}
+
+.contactBig .contRight .galataText div{
+  margin-right: 0.2vw;
+  font-family: 'Comfortaa';
+  text-align: end;
+  font-size: 1vw;
+}
+
+.contactBig .contRight .docText {
+  margin-right: 0.2vw;
+  font-family: 'Comfortaa';
+  text-align: end;
+  font-size: 1vw;
+  color: #ffffff;
+}
+
+
+
 
 
 
@@ -157,7 +192,7 @@
     text-align: right;
     padding-right: 10px;
     flex-direction: column;
-    border-right: 2px solid #851e70;
+    border-right: 3px solid #E5017D;
   }
 
   .contactSmall .contInfoRight { 
@@ -186,12 +221,14 @@
     font-size: 26px;
     color: #ffffff;
     font-family: 'Comfortaa', cursive;
+    margin-bottom: 10px;
   }
 
   .contactSmall .contInfoRight div {
     font-size: 26px;
     color: #ffffff;
     font-family: 'Comfortaa', cursive;
+    margin-bottom: 10px;
   }
 
   .contactSmall .endSide .bigText {
@@ -201,6 +238,7 @@
     padding: 0; 
     font-family: 'Comfortaa', cursive;
   }
+  
 
   .contactSmall .endSide .smallText {
     font-size: 1.5vw;
@@ -212,9 +250,23 @@
   .contactSmall .smallIcons img {
     width: 24px;   
     height: auto;    
-    margin-right: 5px;     } 
+    margin-right: 5px; } 
     
    
+    .contactSmall .contRight .galataText {
+      position: absolute;
+      top: 1vw;
+      right: 1vw;
+      height: 2.5vw;
+      border-right: 3px solid #E5017D;
+    }
+    
+    .contactSmall .contRight .galataText div{
+      margin-right: 0.2vw;
+      font-family: 'Comfortaa';
+      text-align: end;
+      font-size: 1vw;
+    }
   
   
 

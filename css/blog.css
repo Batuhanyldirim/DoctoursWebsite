@@ -100,14 +100,14 @@ bottom: 0;
 
 .blogPost1 h1, .blogPost2 h1, .blogPost3 h1{
   padding-left: 3%;
-  font-size: 24px;
+  font-size: 1.7vw;
   color: #e5017d;
   font-family: 'Comfortaa', cursive;
 }
 
 .blogPost1 p, .blogPost2 p, .blogPost3 p{
   padding-left: 3%;
-  font-size: 16px;
+  font-size: 1.2vw;
   font-family: 'Comfortaa', cursive;
 }
 
@@ -130,6 +130,31 @@ bottom: 0;
   font-weight: bold;
   padding-left: 5%;
   margin: 0;
-  color:#0f060b;
+  color:#ffffff;
   font-family: 'Comfortaa', cursive;
+}
+
+.blogBack {
+  opacity: 0.3;
+  position: absolute;
+  top: 50%; /* Position at halfway vertically */
+  left: 10%;
+  width: 26vw; /* Adjust the width as desired */
+  height: auto; /* Adjust the height as desired */
+  transform: translateY(-140%); /* Center vertically */
+}
+
+.leftText {
+  top: 35%;
+  left: 20%;
+  text-align: center;
+}
+
+.textLine2 {
+  top: -1vw;
+  position: relative;
+  color: #e5017d;
+  font-size: 4.8vw; /* Sets the font size for line 2 */
+  text-align: left;
+  font-family: 'Comfortaa';
 }

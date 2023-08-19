@@ -3,7 +3,7 @@
 .whyDoc {
   margin-top: 150px;
   height: 40vw;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   font-family: 'Comfortaa', cursive;
 }
 
@@ -19,7 +19,7 @@
   position: relative;
   text-align: center;
   padding: 10px;
-  background-color: #000000;
+  background-color: #ffffff;
   border: 3px solid #e5017d;
   box-sizing: border-box;
   height: calc((3.5hw + 1vh) * 15);
@@ -49,7 +49,7 @@
 }
 
 .colLeft div {
-  color: #ffffff;
+  color: #000000;
   font-size: calc(((15vw + 1vh) * 0.08));
   font-family: 'Comfortaa', cursive;
 }
@@ -76,7 +76,7 @@
   margin-left: 15%;
   margin-right: 15%;
   text-align: left;
-  color: #ffffff;
+  color: #000000;
   font-size: calc(((15vw + 1vh) * 0.1));
   font-family: 'Comfortaa', cursive;
 }
