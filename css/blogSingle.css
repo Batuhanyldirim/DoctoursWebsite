@@ -1,34 +1,49 @@
-/* blog-post.css */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 .blog-post-container {
     margin-top: 5%;
     display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
   .blogLeft {
     flex: 3;
     padding: 5%;
-    border: 5px solid rgb(168, 32, 32);
-    box-sizing: border-box;
+  }
+
+  .blogLine{
+    position: absolute;
+    top: 36%;
+    left: 15%;
+    height: 4px;
+    width: 10vw;
+    background-color: #000000;
+    transform: translateX(-50%);
   }
   
   .blogRight {
     flex: 1;
     padding: 20px;
-    border: 5px solid rgb(168, 32, 32);
-    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
   }
   
-  .blog-post-container h2 {
+  .blogTitle {
     font-size: 48px;
     color: #d02373;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
+    font-family: 'Comfortaa';
   }
+
+
   
   .blog-post-container p {
     font-size: 16px;
     color: #666666;
     line-height: 1.5;
+    font-family: 'Comfortaa';
   }
 
   .blogImage1{
@@ -36,6 +51,52 @@
     height: auto !important;
     margin-left: 10%;
   }
+
+  .headerDiv {
+    position: relative;
+    margin-bottom: 5%;
+  }
+
+  .header1 {
+    border-right: 5px solid #000000;
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0); /* Change text color */
+    font-size: 44px; /* Change font size */
+    font-family: 'Comfortaa';
+  }
+
+  .header2 {
+    border-right: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    text-align: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #E5017D; /* Change text color */
+    font-size: 44px; /* Change font size */
+    font-family: 'Comfortaa';
+  }
+
+  .relatedPost {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+    flex-direction: column;
+    border-bottom: 5px solid #E5017D;
+
+  }
   
-  /* Add more styles as needed */
+
+  .postImage {
+    width: 100%;
+    height: auto;
+  }
+
+.relatedPostTitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #000000;
+  font-family: 'Comfortaa';
+}
   

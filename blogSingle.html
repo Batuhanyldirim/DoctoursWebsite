@@ -34,14 +34,23 @@
 
   <div class="blog-post-container">
   <div class="blogLeft">
-    <h2 id="blogTitle"></h2>
-    <p id="blogDescription"></p>
+    <div class="blogLine"></div>
+    <h2 class="blogTitle" id="blogTitle"></h2>
+    <p id="blogDescription1"></p>
     <img src="" alt="Image 3" class="blogImage1" id="blogImage1">
+    <p id="blogDescription2"></p>
+    <img src="" alt="Image 3" class="blogImage1" id="blogImage2">
+    <p id="blogDescription3"></p>
+    <img src="" alt="Image 3" class="blogImage1" id="blogImage3">
+    <p id="blogDescription4"></p>
 
 
   </div>
-  <div class="blogRight">
-
+  <div class="blogRight", id="blogRight">
+    <div class="headerDiv">      
+      <div class="header1">similar</div>
+      <div class="header2">articles</div>
+    </div>
   </div>
 
 
@@ -53,46 +62,62 @@ var blogPostsData = [
     {
         id: "post1",
         title: `Rhinoplasty: A New Nose, A New Confidence`,
-        description: `Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
         the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
         features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of...`,
+        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of`],
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post1",
-        imageUrl: "images/insta.png"
+        imageUrl: "images/facelift.jpg",
+        relatedPosts: [1,2,3]
     },
     {
         id: "post2",
-        title: `What to Consider When Deciding on Rhinoplasty?`,
-        description: `Doing thorough research: Gather information about rhinoplasty from reliable sources. Learn about the 
-        rhinoplasty process, the recovery period, and potential risks. Conduct research to find a repu- table plastic surgeon 
-        and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
-        changing...`,
+                title: `Rhinoplasty: A New Nose, A New Confidence`,
+        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of`],
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/insta.png"
+        imageUrl: "images/neck.jpg",
+        relatedPosts: [0,2,3]
     },
     {
         id: "post3",
-        title: `What to Consider When Deciding on Rhinoplasty?`,
-        description: `Doing thorough research: Gather information about rhinoplasty from reliable sources. Learn about the 
-        rhinoplasty process, the recovery period, and potential risks. Conduct research to find a repu- table plastic surgeon 
-        and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
-        changing...`,
+                title: `Rhinoplasty: A New Nose, A New Confidence`,
+        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of`],
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/insta.png"
+        buttonUrl: "blogSingle.html?id=post3",
+        imageUrl: "images/nose.jpg",
+        relatedPosts: [0,1,3]
     },
     {
         id: "post4",
-        title: `What to Consider When Deciding on Rhinoplasty?`,
-        description: `Doing thorough research: Gather information about rhinoplasty from reliable sources. Learn about the 
-        rhinoplasty process, the recovery period, and potential risks. Conduct research to find a repu- table plastic surgeon 
-        and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
-        changing...`,
+                title: `Rhinoplasty: A New Nose, A New Confidence`,
+        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
+        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
+        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
+        correct the shape and size of`],
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/insta.png"
+        buttonUrl: "blogSingle.html?id=post4",
+        imageUrl: "images/skin1.jpg",
+        relatedPosts: [0,1,2]
     }];
 
 
@@ -103,18 +128,49 @@ var blogPostsData = [
     var blogPostId = searchParams.get("id");
 
     // Find the blog post data based on the ID
-    var blogPostData = blogPostsData.find(post => post.id === blogPostId);
+    var singlePostData = blogPostsData.find(post => post.id === blogPostId);
 
     // Populate the blog post content on the page
-    if (blogPostData) {
-        console.log({blogPostData})
-      document.getElementById("blogTitle").textContent = blogPostData.title;
-      document.getElementById("blogDescription").textContent = blogPostData.description;
-      document.getElementById("blogImage1").src = blogPostData.imageUrl;
+    if (singlePostData) {
+      document.getElementById("blogTitle").textContent = singlePostData.title;
+      document.getElementById("blogDescription1").textContent = singlePostData.description[0];
+      document.getElementById("blogDescription2").textContent = singlePostData.description[0];
+      document.getElementById("blogDescription3").textContent = singlePostData.description[0];
+      document.getElementById("blogDescription4").textContent = singlePostData.description[0];
+      document.getElementById("blogImage1").src = singlePostData.imageUrl;
+      document.getElementById("blogImage2").src = singlePostData.imageUrl;
+      document.getElementById("blogImage3").src = singlePostData.imageUrl;
     } else {
       // Handle the case when the blog post data is not found
       // For example, show an error message or redirect to a 404 page
     }
+
+    singlePostData.relatedPosts.forEach(function (post, index){
+
+      var postElement = document.createElement("div");
+      postElement.classList.add("relatedPost");
+
+      var postLink = document.createElement("a");
+      postLink.href = blogPostsData[post].buttonUrl;
+      postLink.classList.add("postLink"); 
+
+      var postImage = document.createElement("img");
+      postImage.classList.add("postImage");
+      postImage.src = blogPostsData[post].imageUrl;
+
+      var postTitle = document.createElement("h2");
+      postTitle.classList.add("relatedPostTitle");
+      postTitle.textContent = blogPostsData[post].title;
+
+
+      var blogRightElm = document.getElementById("blogRight");
+      postLink.appendChild(postImage);
+      postLink.appendChild(postTitle);
+      postElement.appendChild(postLink);
+      blogRightElm.appendChild(postElement);
+    })
+
+
   </script>
 
   
