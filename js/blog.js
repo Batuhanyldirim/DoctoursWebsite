@@ -16,7 +16,7 @@ var blogPostsData = [
         changing...`,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/breast1.jpg"
+        imageUrl: "images/hair1.jpg"
     },
     {
         id: "post3",
