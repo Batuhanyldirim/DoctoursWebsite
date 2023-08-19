@@ -13,13 +13,14 @@
   }
 
   .blogLine{
-    position: absolute;
-    top: 36%;
-    left: 15%;
+    position: relative;
+    bottom: 0%;
+    left: 10%;
     height: 4px;
     width: 10vw;
     background-color: #000000;
     transform: translateX(-50%);
+    margin-bottom: 3%;
   }
   
   .blogRight {
@@ -33,7 +34,6 @@
   .blogTitle {
     font-size: 48px;
     color: #d02373;
-    margin-bottom: 5%;
     font-family: 'Comfortaa';
   }
 
