@@ -68,13 +68,11 @@
 
 .contactBig .endSide {
   position: relative;
-  padding-right: 20px;
   padding-bottom: 30px;
   flex: 3;
   text-align: right;
   display: flex;
   flex-direction: column;
-  margin-right: 5%;
 }
 
 .contactBig .contInfoLeft div {
@@ -98,6 +96,9 @@
   padding: 0; /* Remove any additional padding */
   font-family: 'Comfortaa', cursive;
   margin-top: 35%;
+  position: relative;
+  top: 0px;
+  height: auto;
 }
 
 .contactBig .endSide .smallText {
@@ -105,6 +106,8 @@
   color: #ffffff;
   margin: 1px 0; /* Adjust the vertical margin as needed */
   padding: 0; /* Remove any additional padding */
+  position: relative;
+  top: 0px;
 }
 
 .contactBig .smallIcons img {
@@ -131,13 +134,34 @@
   font-size: 1vw;
 }
 
-.contactBig .contRight .docText {
+.upEnd{
+  flex: 1;
+  margin-right: 5%;
+}
+
+.downEnd{
+  flex: 1;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.endSide .downEnd div {
+  position: absolute;
+  bottom: 0;
   margin-right: 0.2vw;
   font-family: 'Comfortaa';
-  text-align: end;
   font-size: 1vw;
   color: #ffffff;
+  text-align: end;
 }
+
+
+
+
+
+
 
 
 
@@ -267,9 +291,3 @@
       text-align: end;
       font-size: 1vw;
     }
-  
-  
-
-
-  
-
