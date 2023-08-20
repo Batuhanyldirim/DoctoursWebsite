@@ -97,6 +97,7 @@ var blogPostsData = [
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post1",
         imageUrls: ["images/facial2.jpg","pass","pass","pass","images/facial1.jpg","pass","pass","pass","pass"],
+        coverImg:"images/facial2.jpg",
         relatedPosts: [1,2,3]
     },
     {
@@ -128,6 +129,7 @@ var blogPostsData = [
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post2",
         imageUrls: ["pass","pass","images/botox2.jpg","pass","pass","pass","pass","pass","pass"],
+        coverImg:"images/botox2.jpg",
         relatedPosts: [0,2,3]
     },
   
@@ -190,7 +192,7 @@ var blogPostsData = [
 
       var postImage = document.createElement("img");
       postImage.classList.add("postImage");
-      postImage.src = blogPostsData[post].imageUrls[0];
+      postImage.src = blogPostsData[post].coverImg;
 
       var postTitle = document.createElement("h2");
       postTitle.classList.add("relatedPostTitle");
