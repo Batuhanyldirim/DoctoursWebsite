@@ -6,7 +6,7 @@ var blogPostsData = [
         the aesthetic appearanc`,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post1",
-        imageUrl: "images/nose-dummy.jpg",
+        imageUrls: "images/nose-dummy.jpg",
     },
     {
         id: "post2",
@@ -16,7 +16,7 @@ var blogPostsData = [
         changing...`,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/hair1.jpg"
+        imageUrls: "images/hair1.jpg"
     },
     {
         id: "post3",
@@ -27,7 +27,7 @@ var blogPostsData = [
         changing...`,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/dental1.jpg"
+        imageUrls: "images/dental1.jpg"
     },
     {
         id: "post4",
@@ -38,7 +38,7 @@ var blogPostsData = [
         changing...`,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/hair1.jpg"
+        imageUrls: "images/hair1.jpg"
     }
 ];
 
@@ -83,7 +83,7 @@ blogPostsData.forEach(function (post, index) {
 
     // Create the image element and set its source
     var imageElement = document.createElement("img");
-    imageElement.src = post.imageUrl;
+    imageElement.src = post.imageUrls;
     imageElement.classList.add("postImage");
 
     // Create a container for the blog post content

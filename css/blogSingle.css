@@ -46,10 +46,11 @@
     font-family: 'Comfortaa';
   }
 
-  .blogImage1{
+  .blogImage{
     width: 50%;
     height: auto !important;
     margin-left: 10%;
+    margin-bottom: 5%;
   }
 
   .headerDiv {

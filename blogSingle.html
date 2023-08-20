@@ -33,16 +33,20 @@
       </div>
 
   <div class="blog-post-container">
-  <div class="blogLeft">
+  <div class="blogLeft" id="blogLeft">
     <h2 class="blogTitle" id="blogTitle"></h2>
     <div class="blogLine"></div>
-    <p id="blogDescription1"></p>
+
+<!--    
+   <p id="blogDescription1"></p>
+
     <img src="" alt="Image 3" class="blogImage1" id="blogImage1">
+
     <p id="blogDescription2"></p>
     <img src="" alt="Image 3" class="blogImage1" id="blogImage2">
     <p id="blogDescription3"></p>
     <img src="" alt="Image 3" class="blogImage1" id="blogImage3">
-    <p id="blogDescription4"></p>
+    <p id="blogDescription4"></p> -->
 
 
   </div>
@@ -61,64 +65,74 @@
 var blogPostsData = [
     {
         id: "post1",
-        title: `Rhinoplasty: A New Nose, A New Confidence`,
-        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`],
+        title: `What is facial aesthetics?`,
+        description: [`Facial aesthetics encompasses various services such as facelift, eyelid surgery, forehead lift, 
+        facial fillers, Botox injections, chin augmentation, and ear surgery.`,
+        `What is facial aesthetics?`,
+        `Facial aesthetics is the general term for surgical or non-surgical procedures performed to correct 
+          aesthetic issues in the facial area and improve the overall appearance of the face. These procedures are 
+          carried out with the aim of balancing facial features, reducing signs of aging, shaping facial contours, 
+          or correcting facial symmetry.`,
+          `What determines suitable candidates for facial aesthetics?`,
+        `Suitable candidates for facial aesthetics are typically healthy individuals who wish to correct 
+        or improve aesthetic issues on their faces. These issues may include signs of aging, sagging, wrinkles, 
+        nose deformities, jawline concerns, loss of cheek and lip volume, and other aesthetic concerns. Since each 
+        candidate's situation is unique, a consultation with our plastic surgeon will lead to the most accurate outcome.`,
+        `What are the facial aesthetics procedures?`,
+        `Facial aesthetics procedures can be performed using various techniques and methods. Some of the procedures 
+        include facelift (tightening of the face and neck skin), rhinoplasty (nose aesthetics), blepharoplasty (eyelid aesthetics), 
+        forehead lift (correcting forehead wrinkles), lip augmentation (increasing lip volume), cheek augmentation 
+        (enhancing cheek fullness), and other similar procedures.`,
+        `How long do facial aesthetics procedures take, and what is the recovery process like?`,
+        `The duration of facial aesthetics procedures depends on the type and complexity of the procedure. For example, a 
+        facelift procedure typically takes 4-6 hours, while smaller procedures can be completed in a shorter time. 
+        The recovery process also varies depending on the procedure. Generally, there may be swelling, bruising, and 
+        sensitivity in the first few weeks. The complete recovery process can take several weeks to a few months.
+        `,
+        `Are the results of facial aesthetics procedures permanent?`,
+        `The results of facial aesthetics procedures are usually long-lasting or permanent. However, since the aging process 
+        continues, some changes may occur over time. For example, a person who has undergone a facelift procedure may show 
+        signs of sagging again due to aging. Nevertheless, aesthetic procedures typically provide significant effects that 
+        last for years and can help achieve a more youthful and vibrant appearance.`],
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post1",
-        imageUrl: "images/facelift.jpg",
+        imageUrls: ["images/facial2.jpg","pass","pass","pass","images/facial1.jpg","pass","pass","pass","pass"],
         relatedPosts: [1,2,3]
     },
     {
         id: "post2",
-                title: `Rhinoplasty: A New Nose, A New Confidence`,
-        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`],
+        title: `What is facial aesthetics?`,
+        description: [
+        `What is a Botox injection?`,
+        `A Botox injection is a cosmetic treatment method that uses a protein called botulinum toxin type A. 
+        Botulinum toxin temporarily relaxes muscles by blocking nerve signals from nerves to muscles.`,
+        `Botox injections are used to reduce wrinkles and fine lines on the face. They are most commonly applied to 
+        the forehead, frown lines between the eyebrows, crow's feet, and eyebrow areas. Botulinum toxin limits the 
+        movement of facial muscles, temporarily paralyzing them and reducing the appearance of wrinkles. Additionally, 
+        it provides a tighter look on the face, resulting in a more youthful appearance.`,
+        `Botox injections are a non-surgical procedure that does not require anesthesia. The botulinum toxin is directly 
+        injected into the muscles using a needle. The procedure is typically quick and relatively painless. Results usually 
+        become noticeable within a few days to a week and typically last for 3 to 6 months. After this period, Botox injections 
+        can be repeated.`,
+        `Botox injections are effective in treating dynamic wrinkles (wrinkles formed by facial expressions). These are typically 
+        found in areas such as forehead lines, frown lines, and crow's feet. Botulinum toxin temporarily stops excessive muscle 
+        activity, reducing the appearance of these wrinkles.`,
+        `Botox injections are a safe and low-risk procedure. However, some common side effects may include temporary redness, 
+        swelling, or bruising at the injection site. In rare cases, temporary headaches, dry eyes, or drooping eyelids may occur. 
+        These effects are entirely reversible.`,
+        `Botox injections are a popular option for individuals seeking to reduce facial wrinkles and achieve a more youthful and 
+        refreshed appearance. However, it may not be suitable for everyone, and certain health conditions or medications may prevent 
+        individuals from undergoing Botox treatment. Therefore, it is important to consult with a specialist before planning a Botox 
+        injection. Our specialist can determine the most appropriate treatment plan based on individual needs and expectations and 
+        administer Botox injections safely.`],
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post2",
-        imageUrl: "images/neck.jpg",
+        imageUrls: ["pass","pass","images/botox2.jpg","pass","pass","pass","pass","pass","pass"],
         relatedPosts: [0,2,3]
     },
-    {
-        id: "post3",
-                title: `Rhinoplasty: A New Nose, A New Confidence`,
-        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`],
-        buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post3",
-        imageUrl: "images/nose.jpg",
-        relatedPosts: [0,1,3]
-    },
-    {
-        id: "post4",
-                title: `Rhinoplasty: A New Nose, A New Confidence`,
-        description: [`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`,`Every individual has their own unique sense of beauty. One way that enhances the self-confidence and improves 
-        the aesthetic appearance for many people is rhinoplasty, also known as nose sur- gery. The nose is one of the most prominent 
-        features of the face and greatly influences our over- all appearance. Rhinoplasty is a surgical procedure performed to 
-        correct the shape and size of`],
-        buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post4",
-        imageUrl: "images/skin1.jpg",
-        relatedPosts: [0,1,2]
-    }];
+  
+      
+  ];
 
 
 
@@ -132,14 +146,34 @@ var blogPostsData = [
 
     // Populate the blog post content on the page
     if (singlePostData) {
+      var longest = singlePostData.imageUrls.length > singlePostData.description.length? singlePostData.imageUrls.length :singlePostData.description.length;
+
       document.getElementById("blogTitle").textContent = singlePostData.title;
-      document.getElementById("blogDescription1").textContent = singlePostData.description[0];
-      document.getElementById("blogDescription2").textContent = singlePostData.description[0];
-      document.getElementById("blogDescription3").textContent = singlePostData.description[0];
-      document.getElementById("blogDescription4").textContent = singlePostData.description[0];
-      document.getElementById("blogImage1").src = singlePostData.imageUrl;
-      document.getElementById("blogImage2").src = singlePostData.imageUrl;
-      document.getElementById("blogImage3").src = singlePostData.imageUrl;
+      
+      for(var i = 0;i<longest;i++) {
+        var blogLeftElm = document.getElementById("blogLeft");
+        if(i<singlePostData.description.length){
+          var blogText = document.createElement("p");
+          blogText.textContent = singlePostData.description[i]
+          blogText.classList.add(`blogDescription`);
+          blogLeftElm.appendChild(blogText);
+
+          //document.getElementById(`blogDescription${i}`).textContent = singlePostData.description[i];
+        }  
+        if(i<singlePostData.imageUrls.length && singlePostData.imageUrls[i]!="pass") {
+          var blogImg = document.createElement("img");
+          blogImg.src = singlePostData.imageUrls[i]
+          blogImg.classList.add(`blogImage`);
+          blogLeftElm.appendChild(blogImg);
+          
+          //document.getElementById(`blogImage${i}`).src = singlePostData.imageUrls[i];
+        } 
+        else if(i<singlePostData.imageUrls.length && singlePostData.imageUrls[i]=="pass"){
+          blogLeftElm.appendChild(document.createElement("br"));
+        }
+        
+      }
+      
     } else {
       // Handle the case when the blog post data is not found
       // For example, show an error message or redirect to a 404 page
@@ -156,7 +190,7 @@ var blogPostsData = [
 
       var postImage = document.createElement("img");
       postImage.classList.add("postImage");
-      postImage.src = blogPostsData[post].imageUrl;
+      postImage.src = blogPostsData[post].imageUrls[0];
 
       var postTitle = document.createElement("h2");
       postTitle.classList.add("relatedPostTitle");
