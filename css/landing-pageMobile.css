@@ -98,12 +98,12 @@
 
   .downArrow {
     position: absolute;
-    bottom: 10vw; /* You can adjust this value to control the distance from the bottom */
-    left: 45vw;
+    top: 150vw; /* You can adjust this value to control the distance from the bottom */
+    left: 40vw;
   }
 
   .downArrow img {
-    width: 10vh; /* Adjust this value to set the desired width */
+    width: 20vw; /* Adjust this value to set the desired width */
     opacity: 0.7;
   }
   
