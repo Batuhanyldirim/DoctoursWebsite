@@ -82,7 +82,7 @@ body {
 
 .nav-container .hamburger-lines .line {
   display: block;
-  height: 10%;
+  height: 14%;
   width: 100%;
   border-radius: 10px;
   background: #e5017d;
@@ -114,7 +114,7 @@ body {
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
-  background-color: rgba(229, 1, 125, 0.8); /* Adjusted background color with opacity */
+  background-color: rgba(141, 138, 139, 0.8); /* Adjusted background color with opacity */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +124,7 @@ body {
 
 
 .navbar .menu-items li {
-  margin-bottom: 1.2rem;
+  margin-bottom: 10rem;
   font-size: 1.5rem;
 }
 
