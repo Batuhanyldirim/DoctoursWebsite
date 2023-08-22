@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-body {
-  margin: 0;
-  padding: 0;
-}
-
 
 .landing-page {
     height: 100vh;
-    width: 100vw;
+    width: 110vw;
     position: relative;
     z-index: 0;
     margin-bottom: -60px;
