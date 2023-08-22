@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+#our-services {
+  margin-top: 150px;     
+}
+.our-services {
+  display:flex;
+  position: relative;
+  height: 100vw;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  margin-bottom: -60px;
+  font-family: 'Comfortaa', cursive;
+  flex-direction: column;
+  justify-content: center;
+}
+.services-text {
+  font-size: calc(3.5vw + 1vh);
+  color: white;
+  padding-left: 55%;
+  font-family: 'Comfortaa', cursive;
+}
+.dental {
+  width: 50vw;
+  height: auto;
+  z-index: 1;
+  margin-bottom: 4vw;
+  margin-left: 4vw;
+}
+.plastic {
+  width: 50vw;
+  height: auto;
+  z-index: 1;
+  margin-bottom: 4vw;
+  margin-left: 4vw;
+}
+.ivf {
+  width: 50vw;
+  height: auto;
+  z-index: 1;
+  margin-bottom: 4vw;
+  margin-left: 4vw;
+}
+.hair {
+  width: 50vw;
+  height: auto;
+  z-index: 1;
+  margin-bottom: 4vw;
+  margin-left: 4vw;
+}
+.services-image {
+  /* position: absolute; */
+  top: 0%;
+  right: 0%;
+  width: auto;
+  max-height: 100%; /* Limit the image height to match the .our-services height */
+}
+
+
