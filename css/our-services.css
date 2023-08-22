@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
-
 #our-services {
-  margin-top: 150px;
-      
+  margin-top: 150px;     
 }
-
 .our-services {
   display:flex;
   position: relative;
@@ -18,11 +14,9 @@
   margin-bottom: -60px;
   font-family: 'Comfortaa', cursive;
 }
-
 .left {
 flex: 3
 }
-
 .right {
   flex: 2;
   height: 100%;
@@ -34,14 +28,12 @@ flex: 3
   align-items: center;
   padding-right: 8%;
 }
-
 .services-text {
   font-size: calc(3.5vw + 1vh);
   color: white;
   padding-left: 55%;
   font-family: 'Comfortaa', cursive;
 }
-
 .dental {
   position: absolute;
   top: 10%;
@@ -50,7 +42,6 @@ flex: 3
   height: auto;
   z-index: 1;
 }
-
 .plastic {
   position: absolute;
   top: 25%;
@@ -59,7 +50,6 @@ flex: 3
   height: auto;
   z-index: 1;
 }
-
 .ivf {
   position: absolute;
   top: 50%;
@@ -68,7 +58,6 @@ flex: 3
   height: auto;
   z-index: 1;
 }
-
 .hair {
   position: absolute;
   top: 65%;
@@ -77,8 +66,6 @@ flex: 3
   height: auto;
   z-index: 1;
 }
-
-
 .services-image {
   /* position: absolute; */
   top: 0%;

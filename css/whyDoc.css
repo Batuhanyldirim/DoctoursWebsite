@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
 .whyDoc {
   margin-top: 150px;
   height: 40vw;
   background-color: rgb(255, 255, 255);
   font-family: 'Comfortaa', cursive;
 }
-
 .container {
   padding-top: 5%;
   margin: auto;
@@ -14,7 +12,6 @@
   width: 80%;
   height: 80%;
 }
-
 .column {
   position: relative;
   text-align: center;
@@ -28,50 +25,40 @@
   flex-direction: row;
   transition: 500ms;
 }
-
 .colLeft {
   position: relative;
   display: flex; 
   align-items: center; 
   flex-direction: column;
-/*   border: 1px solid #ccc;
-  border-radius: 5px; */
   height: 100%;
   width: 100%;
   transition: 1000ms;
 }
-
 .colIcon {
   margin-top: 20%;
   margin-bottom: 20%;
   height: 5dvw;
   transition: 1000ms;
 }
-
 .colLeft div {
   color: #000000;
   font-size: calc(((15vw + 1vh) * 0.08));
   font-family: 'Comfortaa', cursive;
 }
-
 .altDesen {
   margin-top: 40%;
   margin-bottom: 40%;
   width: calc(7vw + 1vh);
 }
-
 .colRight {
   position: relative;
   display: flex; 
   align-items: center; 
   justify-content: center; 
   flex-direction: column;
-/*   border: 1px solid #ccc;
-  border-radius: 5px; */
   height: 100%;
   width: 70%;
 }
-
 .colRight div {
   margin-left: 15%;
   margin-right: 15%;
@@ -80,29 +67,21 @@
   font-size: calc(((15vw + 1vh) * 0.1));
   font-family: 'Comfortaa', cursive;
 }
-
 .columnExpanded {
   flex: 4;
 }
-
 .columnExpanded .colLeft {
   width: 30%;
   justify-content: center;
 }
-
 .colRight.collapsed {
   display: none;
 }
-
 .infoText{
   font-size: calc(((15vw + 1vh) * 0.07));
   font-family: 'Comfortaa', cursive;
 }
-
 .infoText.expanded{
   display: none;
   font-family: 'Comfortaa', cursive;
 }
-
-
-

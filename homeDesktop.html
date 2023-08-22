@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctours</title>
+  <link rel="icon" href="images/logo2.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/landing-page.css">
+  <link rel="stylesheet" href="css/our-services.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="css/whyDoc.css">
+  <link rel="stylesheet" href="css/font.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/navigationBar.js"></script>
+  <script src="js/whyDoc.js"></script>
+  <script type="module" src="js/blog.js"></script>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#landing" class="logo">
+      <img src="images/logo.png" alt="Logo">
+    </a>
+    <a href="https://instagram.com/doctours.health?igshid=MzRlODBiNWFlZA==" target="_blank" class="middle-logo">
+      <img src="images/insta.png" alt="Middle Logo">
+    </a>
+    <ul>
+      <li><a href="#our-services">Our Services</a></li>
+      <li><a href="#whyDoc">Why Doctours</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contactBig">Contact</a></li>
+    </ul>
+  </div>
+  
+      
+  <div class="landing-page" id="landing">
+    <div class="shaded-side">
+      <img src="images/pg1 text.png" alt="Image Description">
+    </div>
+    <div class="white-line ">
+    </div>
+    <video autoplay loop muted playsinline class="video-bg">
+      <source src="images/landing-ist-drone1.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+
+  <div id="our-services" class="our-services">
+    <div class="our-services">
+      <div class="left">
+        
+        <a href="dentalHealth.html">
+          <img src="images/dental.png" alt="Image 1" class="dental">
+        </a>
+        <a href="plasticSurg.html">
+          <img src="images/plastic.png" alt="Image 2" class="plastic">
+        </a>
+        <a href="ivfService.html">
+          <img src="images/ivf.png" alt="Image 3" class="ivf">
+        </a>
+        <a href="hairTrans.html">
+          <img src="images/hair.png" alt="Image 3" class="hair">
+        </a>
+
+      </div>
+      <div class="right">
+        <div class="services-text">
+          <h3>Our <br>Services</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+
+
+  <div id="whyDoc" class="whyDoc">
+    <div class="container">
+      <div class="column columnExpanded" id="column0" onclick="expandColumn(0)">
+        <div class="colLeft" id="colLeft0"> 
+          <img src="images/hospital2 - Kopya.png" alt="Image 3" class="colIcon">
+          <div>Fully-Fledged</div>
+          <div>Hospital</div>
+          <img src="images/alt desen-siyah.png" alt="Image 3" class="altDesen">
+          <div class="infoText expanded" id="infoText0">Click for more info</div>
+        </div>
+        <div class="colRight" id="colRight0">
+        <div>Cutting-edge hospital with advanced technology and expert staff. Comprehensive services tailored to your needs. Exceptional care, compassionate approach. Your health, our priority</div>
+        </div>
+      </div>
+      <div class="column" id="column1" onclick="expandColumn(1)">
+        <div class="colLeft" id="colLeft1"> 
+          <img src="images/hotel-sign.png" alt="Image 3" class="colIcon">
+          <div>Hotel</div>
+          <div>&nbsp</div>
+          <img src="images/alt desen-siyah.png" alt="Image 3" class="altDesen">
+          <div class="infoText" id="infoText1">Click for more info</div>
+        </div>
+        <div class="colRight collapsed" id="colRight1">
+          <div>Our healthcare service combines with comfortable and luxurious accommodations. The comfort and satisfaction of our guests are our top priority.</div>
+        </div>
+      </div>
+      <div class="column" id="column2" onclick="expandColumn(2)">
+        <div class="colLeft" id="colLeft2"> 
+          <img src="images/car1 - Kopya.png" alt="Image 3" class="colIcon">
+          <div>Transportation</div>
+          <div>&nbsp</div>
+          <img src="images/alt desen-siyah.png" alt="Image 3" class="altDesen">
+          <div class="infoText" id="infoText2">Click for more info</div>
+        </div>
+        <div class="colRight collapsed" id="colRight2">
+          <div>We ensure a comfortable journey from the airport to your hotel and from your hotel to the hospital with our comfortable vehicles and experienced drivers, making your travel enjoyable.</div>
+        </div>
+      </div>
+      <div class="column" id="column3" onclick="expandColumn(3)">
+        <div class="colLeft" id="colLeft3"> 
+          <img src="images/female doctor1 - Kopya.png" alt="Image 3" class="colIcon">
+          <div>7/24</div>
+          <div>Doctor Service</div>
+          <img src="images/alt desen-siyah.png" alt="Image 3" class="altDesen">
+          <div class="infoText" id="infoText3">Click for more info</div>
+        </div>
+        <div class="colRight collapsed" id="colRight3">
+          <div>Feel safe with 24-hour doctor access. We are just a phone call away in case of any emergency even outside the hospital.</div>
+        </div>
+      </div>
+      <div class="column" id="column4" onclick="expandColumn(4)">
+        <div class="colLeft" id="colLeft4"> 
+          <img src="images/dtours.png" alt="Image 3" class="colIcon">
+          <div>Doctours</div>
+          <div>&nbsp</div>
+          <img src="images/alt desen-siyah.png" alt="Image 3" class="altDesen">
+          <div class="infoText" id="infoText4">Click for more info</div>
+        </div>
+        <div class="colRight collapsed" id="colRight4">
+          <div>Doctours consists of health proffesionals since we are not a tourism agency our primary focus has always been our patients' well-being.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div class="blog" id="blog">
+    <div class="blogLeft">
+      
+      <div class="leftText">
+        <div class="textLine2">Blog</div>
+      </div>
+    </div>
+    <div class="blogRight">
+      <div class="blogUp">
+        <div class="blogPost1">
+          <img src="images/nose-dummy.jpg" alt="">
+
+          <h1>Rhinoplasty: A New Nose, A New Confidence</h1>
+          <p>
+            Every individuae way that enhances the self-confidence and improves 
+            the aesthetic appearanc way that enhances the way that enhances the
+          </p>
+
+          <a href="blogPage.html">More >></a>
+        </div>
+
+        <div class="blogPost2">
+          <h1>What to Consider When Deciding on Rhinoplasty?</h1>
+          <p>
+            Doing thorough research: Gather information about rhinoplasty from reliable sources. Learn about the 
+            rhinoplasty way that enhances the way that enhances the way that enhances the process
+          </p>
+
+          <a href="blogPage.html">More >></a>
+
+          <img src="images/nose-dummy.jpg" alt="">
+        </div>
+
+        <div class="blogPost3">
+          <img src="images/dental1.jpg" alt="">
+
+          <h1>What to Consider When Deciding on Rhinoplasty?</h1>
+          <p>
+            Doing thorough research: Gather information about rhinoplasty way that enhances the from reliable sources. Learn about the 
+            rhinoplasty process
+          </p>
+
+          <a href="blogPage.html">More >></a>
+        </div>
+      </div>
+      <div class="blogDown">
+      <a href="blogPage.html">All Articles >></a>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="contactBig" id="contactBig">
+    <div class="contLeft">
+      <div class="contactInfo" id="contactInfo">
+        <div class="contInfoLeft">
+          <div>
+            phone
+          </div>
+          <div>
+            email
+          </div>
+          <div>
+            follow us
+          </div>
+        </div>
+        <div class="contInfoRight">
+          <div>
+            +90 545 350 01 45
+          </div>
+          <div>
+            info@doctours.com
+          </div>
+          <div class="smallIcons">
+            <a href="https://www.facebook.com/doctourshealth" target="_blank">
+              <img src="images/s.png" alt="Icon 1">
+            </a>
+            <a href="https://instagram.com/doctours.health?igshid=MzRlODBiNWFlZA==" target="_blank">
+              <img src="images/insta1.png" alt="Icon 2">
+            </a>
+            <a href="https://wa.me/905453500145" target="_blank">
+              <img src="images/whatsapp2.png" alt="Icon 3">
+            </a>
+            <a href="http://" target="_blank">
+              <img src="images/telegram1.png" alt="Icon 4">
+            </a>
+          </div>
+        </div>
+        <div class="endSide">
+          <div class="upEnd">
+            <p class="bigText">doctours</p>
+            <p class="smallText">your health companion in Turkey</p>
+          </div>
+          <div class="downEnd">
+            <div>
+              doctours © 2023
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contRight">
+      <div class="galataText">
+        <div>Galata Tower</div>
+        <div>Istanbul</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="wpIcon">
+    <a href="https://wa.me/905453500145" target="_blank">
+      <img src="images/whatsapp.png">
+    </a>
+    </div>
+
+</body>
+</html>
+
+<!-- <div class="evenPost">
+  <div class="postLeft">
+
+  </div>
+  <div class="postRight">
+    <h2></h2>
+    <p></p>
+    <a></a>
+  </div>
+
+
+</div> -->

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
 .blog {
   display: flex;
   align-items: center;
@@ -10,8 +9,6 @@
   font-family: 'Comfortaa';
   margin-top: 60px;
 }
-
-
 .blogLeft {
   display: flex;
   align-items: center;
@@ -20,7 +17,6 @@
   text-align: center;
   height: 100%;
 }
-
 .blogLeft p {
   font-size: 94px;
   font-weight: bold;
@@ -28,14 +24,12 @@
   color:#e5017d;
   font-family: 'Comfortaa', cursive;
 }  
-
 .blogRight {
   flex: 3;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
-
 .blogUp {
   display: flex;
   flex: 15;
@@ -44,20 +38,17 @@
   justify-content: space-around;
   border-left: 15px solid #000000;
 }
-
 .blogPost3 {
   width: 28%;
   height: 90%;
   box-sizing: border-box;
 }
-
 .blogPost1 {
   width: 28%;
   height: 90%;
   box-sizing: border-box;
   position: relative;
 }
-
 .blogPost1::before {
   content: "";
   position: absolute;
@@ -68,14 +59,12 @@
   background-color: #000000;
   transform: translateX(-50%);
 }
-
 .blogPost2 {
   width: 28%;
   height: 90%;
   box-sizing: border-box;
   position: relative;
 }
-
 .blogPost2::before {
   content: "";
   position: absolute;
@@ -86,45 +75,37 @@
   background-color: #000000;
   transform: translateX(-50%);
 }
-
 .blogPost1 img, .blogPost3 img {
 width: 100%;
 }
-
 .blogPost2 img{
 width: 100%;
 position: absolute;
 left: 0;
 bottom: 0;
 }
-
 .blogPost1 h1, .blogPost2 h1, .blogPost3 h1{
   padding-left: 3%;
   font-size: 1.7vw;
   color: #e5017d;
   font-family: 'Comfortaa', cursive;
 }
-
 .blogPost1 p, .blogPost2 p, .blogPost3 p{
   padding-left: 3%;
   font-size: 1.2vw;
   font-family: 'Comfortaa', cursive;
 }
-
 .blogPost1 a, .blogPost2 a, .blogPost3 a {
   color: #e5017d;
   padding-left: 3%;
   font-family: 'Comfortaa', cursive;
 }
-
-
 .blogDown {
   display: flex;
   align-items: center;
   flex: 1;
   background-color: #e5017d;
 }
-
 .blogDown a {
   font-size: 24px;
   font-weight: bold;
@@ -133,7 +114,6 @@ bottom: 0;
   color:#ffffff;
   font-family: 'Comfortaa', cursive;
 }
-
 .blogBack {
   opacity: 0.3;
   position: absolute;
@@ -143,13 +123,11 @@ bottom: 0;
   height: auto; /* Adjust the height as desired */
   transform: translateY(-140%); /* Center vertically */
 }
-
 .leftText {
   top: 35%;
   left: 20%;
   text-align: center;
 }
-
 .textLine2 {
   top: -1vw;
   position: relative;
