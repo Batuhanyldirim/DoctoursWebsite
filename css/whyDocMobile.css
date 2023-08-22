@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.whyDoc {
+  margin-top: 150px;
+  height: 160vw;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Comfortaa', cursive;
+}
+.container {
+  padding-top: 5%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+.rowLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rowLeft img {
+  width: 20vw;
+}
+.rowRight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
