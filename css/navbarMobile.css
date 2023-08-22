@@ -1,102 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
-
-.navbar {
-  background-image: url("../images/banner-bg.png");
-  background-size: 100% auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Adjust the spacing between elements */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1vw;
-  background-color: #f7f7f7;
-  padding: 25px 0;
-  z-index: 2;
-  font-family: 'Comfortaa';
-  border-bottom: 3px solid #b9b8b8;
-}
-
-.navbar ul {
-  position: fixed;
+/* Reset some default styles */
+* {
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  text-align: right;
-  display: flex; /* Add this line to enable flexbox */
-  justify-content: flex-end; /* Align items to the right */
-  align-items: center; /* Align items vertically */
-  width: auto; /* Set width to auto */
-  right: 1vw; /* Adjust as needed */
-  font-family: 'Comfortaa', cursive;
+  box-sizing: border-box;
 }
 
+/* Styling for the navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
 
+/* Hamburger menu icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
 
-.navbar li {
-  display: inline-block;
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+/* Styling for the menu items */
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
   margin: 0 15px;
 }
 
-.navbar li a {
+.menu li a {
   text-decoration: none;
-  color: #0b1164;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: calc(1.5vw - 6px);
-  transition: color 0.3s ease;
+  color: #fff;
 }
 
-.navbar li a:hover {
-  color: #6f1b1b;
-  font-family: 'Comfortaa', cursive;
-}
-
-.navbar li a.active {
-  color: #b7ff00;
-  font-family: 'Comfortaa', cursive;
-}
-
-.middle-logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.middle-logo img {
-  width: 5vw; /* Adjust the width to your desired size */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* Add an underline to the active list item */
-.navbar li.active a {
-  position: relative;
-  font-family: 'Comfortaa', cursive;
-}
-
-.navbar li.active a:after {
-  content: "";
-  position: absolute;
-  bottom: -5px; /* Adjust the distance of the underline from the text */
-  left: 0;
-  width: 100%;
-  height: 2px; /* Adjust the thickness of the underline */
-  background-color: #e5017d;
-  font-family: 'Comfortaa', cursive;
-}
-
-.logo {
-  position: absolute;
-  left: calc((1vw + 3vh)*4);;
-  top: 1vw;
-  transform: translateX(-50%);
-}
-
-.logo img {
-  height: calc((0.8vw + 1vh)*(2.8)); /* Adjust the width to your desired size */
-  width: auto; /* Maintain the aspect ratio */
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .hamburger {
+      display: flex;
+  }
+  
+  .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+  }
+  
+  .menu.active {
+      display: flex;
+  }
+  
+  .menu li {
+      margin: 10px;
+  }
 }
