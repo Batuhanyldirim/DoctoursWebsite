@@ -135,8 +135,8 @@ body {
 
 .logo {
   position: absolute;
-  top: 5px;
-  right: 15px;
+  top: 4vw;
+  right: 0vw;
   font-size: 1.2rem;
   color: #e5017d;
 }
