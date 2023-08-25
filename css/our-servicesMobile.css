@@ -64,11 +64,23 @@
   margin-left: 4vw;
 }
 
-.service-container {
+.service-container1, .service-container3{
   position: relative;
   width: 90vw;
   height: auto;
   z-index: 1;
+  top: 0;
+  left: -100%;
+}
+
+.service-container2, .service-container4 {
+  position: relative;
+  width: 90vw;
+  height: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  left: -100%;
 }
 
 .servicesTitle {
