@@ -58,4 +58,56 @@
   max-height: 100%; /* Limit the image height to match the .our-services height */
 }
 
+.service {
+  display: flex;
+  margin-bottom: 4vw;
+  margin-left: 4vw;
+}
+
+.service-container {
+  position: relative;
+  width: 90vw;
+  height: auto;
+  z-index: 1;
+}
+
+.servicesTitle {
+  position: absolute;
+  top: 15%; /* Adjust as needed */
+  left: 80%; /* Adjust as needed */
+  width: 50%;
+  transform: translate(-50%, -50%);
+  font-size: calc(3.5vw + 1vh);
+  color: rgb(164, 68, 68);
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.servicesText {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 80%; /* Adjust as needed */
+  width: 50%;
+  transform: translate(-50%, -50%);
+  font-size: calc(1.5vw + 1vh);
+  color: rgb(164, 68, 68);
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.servicesClick {
+  position: absolute;
+  top: 80%; /* Adjust as needed */
+  left: 80%; /* Adjust as needed */
+  width: 50%;
+  transform: translate(-50%, -50%);
+  font-size: calc(2vw + 1vh);
+  color: rgb(164, 68, 68);
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  word-wrap: break-word;
+}
+
 
