@@ -13,9 +13,9 @@ window.addEventListener("scroll", function () {
 
     // Update the background color based on the scroll percentage
     const colorStart = 0.40;
-    const backgroundColorR = 255 - Math.round(48 * 3 * (scrollPercentage - colorStart)); // Adjust the R component
-    const backgroundColorG = 255 - Math.round(26 * 3 * (scrollPercentage - colorStart)); // Adjust the G component
-    const backgroundColorB = 255 - Math.round(26 * 3 * (scrollPercentage - colorStart)); // Adjust the B component
+    const backgroundColorR = 255 - Math.round(48 * 4 * (scrollPercentage - colorStart)); // Adjust the R component
+    const backgroundColorG = 255 - Math.round(26 * 4 * (scrollPercentage - colorStart)); // Adjust the G component
+    const backgroundColorB = 255 - Math.round(26 * 4 * (scrollPercentage - colorStart)); // Adjust the B component
     const backgroundColor = `rgb(${backgroundColorR}, ${backgroundColorG}, ${backgroundColorB})`;
 
 
