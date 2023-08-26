@@ -5,7 +5,7 @@ window.addEventListener("scroll", function () {
     // Calculate the desired opacity based on the scroll percentage
     const desiredOpacity = 1 - scrollPercentage * 2;
     const desiredTop = -1000 * scrollPercentage;
-    const serviceAnimation = 400 * scrollPercentage;
+    const serviceAnimation = 1000 * scrollPercentage;
     const servicesStart1 = -100;
     const servicesStart2 = -120;
     const servicesStart3 = -140;
@@ -13,9 +13,9 @@ window.addEventListener("scroll", function () {
 
     // Update the background color based on the scroll percentage
     const colorStart = 0.40;
-    const backgroundColorR = 255 - Math.round(48 * 4 * (scrollPercentage - colorStart)); // Adjust the R component
-    const backgroundColorG = 255 - Math.round(26 * 4 * (scrollPercentage - colorStart)); // Adjust the G component
-    const backgroundColorB = 255 - Math.round(26 * 4 * (scrollPercentage - colorStart)); // Adjust the B component
+    const backgroundColorR = 255 - Math.round(48 * 5 * (scrollPercentage - colorStart)); // Adjust the R component
+    const backgroundColorG = 255 - Math.round(26 * 5 * (scrollPercentage - colorStart)); // Adjust the G component
+    const backgroundColorB = 255 - Math.round(26 * 5 * (scrollPercentage - colorStart)); // Adjust the B component
     const backgroundColor = `rgb(${backgroundColorR}, ${backgroundColorG}, ${backgroundColorB})`;
 
 
@@ -40,26 +40,26 @@ window.addEventListener("scroll", function () {
 
 
     const whyScroll = -200 * scrollPercentage;
-    const rowStart1 = 100;
-    const rowStart2 = 150;
-    const rowStart3 = 200;
-    const rowStart4 = 250;
-    const rowStart5 = 300;
+    const rowStart1 = 55;
+    const rowStart2 = 75;
+    const rowStart3 = 95;
+    const rowStart4 = 115;
+    const rowStart5 = 130;
 
 
     console.log({ whyScroll })
 
 
-    if (whyScroll > -75) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll}%`;
-    else if (whyScroll < -90) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll + 15}%`
+    if (whyScroll > -60) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll}%`;
+    else if (whyScroll < -75) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll + 15}%`
     else console.log("Row 1 has stopped")
 
-    if (whyScroll > -110) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll}%`;
-    else if (whyScroll < -125) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll + 15}%`
+    if (whyScroll > -90) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll}%`;
+    else if (whyScroll < -105) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll + 15}%`
     else console.log("Row 2 has stopped")
 
-    if (whyScroll > -160) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll}%`;
-    else if (whyScroll < -175) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll + 15}%`
+    if (whyScroll > -120) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll}%`;
+    else if (whyScroll < -135) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll + 15}%`
     else console.log("Row 3 has stopped")
 
     if (whyScroll > -180) document.querySelector(".row4").style.top = `${rowStart4 + whyScroll}%`;

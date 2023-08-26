@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .whyDoc {
-  height: 360vw;
+  height: 500vw;
   background-color: rgb(255, 255, 255);
   font-family: 'Comfortaa', cursive;
 }
@@ -56,9 +56,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5%;
 }
 .rowLeft img {
-  width: 20vw;
+  width: 60vw;
+}
+.rowLeft div{
+  font-size: 3vw;
 }
 .rowRight{
   display: flex;
@@ -68,5 +72,5 @@
 }
 
 .rowRight div{
-  font-size: 3vw;
+  font-size: 5vw;
 }
