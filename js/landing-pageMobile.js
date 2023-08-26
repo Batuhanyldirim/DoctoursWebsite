@@ -37,4 +37,42 @@ window.addEventListener("scroll", function () {
     if (servicesStart2 + serviceAnimation < 0) document.querySelector(".service-container2").style.left = `${servicesStart2 + serviceAnimation}%`;
     if (servicesStart3 + serviceAnimation < 0) document.querySelector(".service-container3").style.left = `${servicesStart3 + serviceAnimation}%`;
     if (servicesStart4 + serviceAnimation < 0) document.querySelector(".service-container4").style.left = `${servicesStart4 + serviceAnimation}%`;
+
+
+    const whyScroll = -200 * scrollPercentage;
+    const rowStart1 = 100;
+    const rowStart2 = 150;
+    const rowStart3 = 200;
+    const rowStart4 = 250;
+    const rowStart5 = 300;
+
+
+    console.log({ whyScroll })
+
+
+    if (whyScroll > -75) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll}%`;
+    else if (whyScroll < -90) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll + 15}%`
+    else console.log("Row 1 has stopped")
+
+    if (whyScroll > -110) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll}%`;
+    else if (whyScroll < -125) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll + 15}%`
+    else console.log("Row 2 has stopped")
+
+    if (whyScroll > -160) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll}%`;
+    else if (whyScroll < -175) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll + 15}%`
+    else console.log("Row 3 has stopped")
+
+    if (whyScroll > -180) document.querySelector(".row4").style.top = `${rowStart4 + whyScroll}%`;
+    else if (whyScroll < -195) document.querySelector(".row4").style.top = `${rowStart4 + whyScroll + 15}%`
+    else console.log("Row 4 has stopped")
+
+    if (whyScroll > -200) document.querySelector(".row5").style.top = `${rowStart5 + whyScroll}%`;
+    else if (whyScroll < -215) document.querySelector(".row5").style.top = `${rowStart5 + whyScroll + 15}%`
+    else console.log("Row 5 has stopped")
+
+
+
+
+
+
 });

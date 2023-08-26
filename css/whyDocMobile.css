@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .whyDoc {
-  height: 260vw;
+  height: 360vw;
   background-color: rgb(255, 255, 255);
   font-family: 'Comfortaa', cursive;
 }
@@ -12,12 +12,46 @@
   width: 80%;
   height: 80%;
 }
-
-.row{
+.row1{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 10%;
+  position: relative;
+  top: 10%;
 }
+
+.row2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  position: relative;
+  top: 30%;
+}
+
+.row3{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  position: relative;
+  top: 30%;
+}
+
+.row4{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  position: relative;
+  top: 30%;
+}
+
+.row5{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  position: relative;
+  top: 30%;
+}
+
 .rowLeft{
   display: flex;
   flex-direction: column;
