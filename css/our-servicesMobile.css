@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 #our-services {
-  margin-top: 50vw;     
+  margin-top: 60vw;     
 }
 .our-services {
   display:flex;
@@ -84,30 +84,13 @@
   left: -100%;
 }
 
-.servicesTitle {
-  position: absolute;
-  top: 15%; /* Adjust as needed */
-  left: 80%; /* Adjust as needed */
-  width: 50%;
-  transform: translate(-50%, -50%);
-  font-size: calc(3.5vw + 1vh);
+.serviceTitle {
+  position: relative;
+  font-size: 8vw;
   color: rgb(164, 68, 68);
   font-family: 'Comfortaa', cursive;
-  text-align: left;
-  word-wrap: break-word;
-}
-
-.servicesText {
-  position: absolute;
-  top: 50%; /* Adjust as needed */
-  left: 80%; /* Adjust as needed */
-  width: 50%;
-  transform: translate(-50%, -50%);
-  font-size: calc(1.5vw + 1vh);
-  color: rgb(164, 68, 68);
-  font-family: 'Comfortaa', cursive;
-  text-align: left;
-  word-wrap: break-word;
+  text-align: center;
+  margin: 5%;
 }
 
 .servicesClick {
