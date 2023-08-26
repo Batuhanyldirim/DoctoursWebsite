@@ -22,7 +22,7 @@
   font-size: 8vw;
 }
 
-.row{
+.row,.lastRows{
   display: flex;
   flex-direction: column;
   margin-bottom: 15%;
@@ -34,13 +34,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.lastRows .rowLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 5%;
 }
+
 .rowLeft img {
   width: 60vw;
 }
 .rowLeft div{
-  font-size: 3vw;
+  font-size: 6vw;
 }
 .rowRight{
   display: flex;
