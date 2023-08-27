@@ -59,8 +59,8 @@ body {
 .nav-container .checkbox {
   position: absolute;
   display: block;
-  height: 7vw;
-  width: 7vw;
+  height: 12vw;
+  width: 12vw;
   z-index: 5;
   opacity: 0;
   cursor: pointer;

@@ -37,9 +37,6 @@ window.addEventListener("scroll", function () {
         });
     }
 
-    if (reviceCheck1) console.log(reviceCheck1, "has not checked");
-    else console.log(reviceCheck1, "has checked");
-
     if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
     else {
         document.querySelector(".service-container1").style.left = 0;
@@ -64,67 +61,42 @@ window.addEventListener("scroll", function () {
     const whyScroll = -120 * scrollPercentage;
     const containerStart = 42;
 
-    console.log({ whyScroll })
+    //console.log({ whyScroll })
 
 
     if (whyScroll > -40) document.querySelector(".container").style.top = `${containerStart + whyScroll}%`;
 
 
+});
 
-    /* 
-        const whyScroll = -150 * scrollPercentage;
-        const rowStart1 = 50;
-        const rowStart2 = 75;
-        const rowStart3 = 95;
-        const rowStart4 = 115;
-        const rowStart5 = 130;
-    
-    
-        console.log({ whyScroll })
-    
-        console.log("before stop: ", rowStart1 + whyScroll)
-        console.log("after stop: ", rowStart1 - 50 - (whyScroll + 50))
-    
-    
-        if (whyScroll > -55) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll}%`;
-        else if (whyScroll < -65) document.querySelector(".row1").style.top = `${rowStart1 + whyScroll + 20}%`
-        else {
-            document.querySelector(".row1").style.top = `${rowStart1 - 55 - (whyScroll + 55)}%`
-            console.log("Row 1 has stopped")
-        }
-    
-    
-        if (whyScroll > -90) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll}%`;
-        else if (whyScroll < -105) document.querySelector(".row2").style.top = `${rowStart2 + whyScroll + 15}%`
-        else {
-            document.querySelector(".row2").style.top = `${rowStart2 - 55 - (whyScroll + 55)}%`
-            console.log("Row 2 has stopped")
-        }
-    
-        if (whyScroll > -120) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll}%`;
-        else if (whyScroll < -135) document.querySelector(".row3").style.top = `${rowStart3 + whyScroll + 15}%`
-        else {
-            document.querySelector(".row3").style.top = `${rowStart3 - 55 - (whyScroll + 55)}%`
-            console.log("Row 3 has stopped")
-        }
-    
-        if (whyScroll > -180) document.querySelector(".row4").style.top = `${rowStart4 + whyScroll}%`;
-        else if (whyScroll < -195) document.querySelector(".row4").style.top = `${rowStart4 + whyScroll + 15}%`
-        else {
-            document.querySelector(".row4").style.top = `${rowStart4 - 55 - (whyScroll + 55)}%`
-            console.log("Row 4 has stopped")
-        }
-    
-        if (whyScroll > -200) document.querySelector(".row5").style.top = `${rowStart5 + whyScroll}%`;
-        else if (whyScroll < -215) document.querySelector(".row5").style.top = `${rowStart5 + whyScroll + 15}%`
-        else {
-            document.querySelector(".row5").style.top = `${rowStart5 - 55 - (whyScroll + 55)}%`
-            console.log("Row 5 has stopped")
-        }
-    
-     */
+const button = document.getElementById("askButton");
 
+button.addEventListener("click", function () {
+    console.log("here");
+    const formItem = document.getElementById("formMenu");
+    formItem.style.transform = "translateX(10%)";
 
+});
 
+const formItem = document.getElementById("formMenu");
+const navBar = document.getElementById("menu-items");
+const checkboxElement = document.querySelector('.checkbox');
+window.addEventListener("click", function (event) {
+    if ((!formItem.contains(event.target) && event.target != button)) {
+        formItem.style.transform = "translateX(120%)";
+    }
 
+    if (checkboxElement.checked) navBar.style.transform = "translateX(0%)";
+    else navBar.style.transform = "translateX(-100%)";
+
+    if (!navBar.contains(event.target) && event.target != checkboxElement) {
+        navBar.style.transform = "translateX(-100%)";
+        checkboxElement.checked = false;
+    }
+});
+
+const closeButton = document.querySelector('.close');
+
+closeButton.addEventListener('click', function (event) {
+    formItem.style.transform = "translateX(120%)";
 });
