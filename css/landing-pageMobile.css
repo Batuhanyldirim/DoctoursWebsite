@@ -157,8 +157,10 @@ body {
 
 
 .formItem .formMenu {
+  position: relative;
   padding-top: 120px;
-  height: 100vh;
+  top: 10vh;
+  height: 80vh;
   width: 100%;
   transform: translateX(120%);
   margin-left: -40px;
