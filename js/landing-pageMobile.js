@@ -24,6 +24,7 @@ window.addEventListener("scroll", function () {
     const backgroundColor = `rgb(${backgroundColorR}, ${backgroundColorG}, ${backgroundColorB})`;
 
 
+
     // Apply the calculated opacity to the video element
     document.querySelector(".video-bg").style.opacity = desiredOpacity;
     document.querySelector(".landing-page").style.top = `${desiredTop}px`;
@@ -72,7 +73,7 @@ window.addEventListener("scroll", function () {
 const button = document.getElementById("askButton");
 
 button.addEventListener("click", function () {
-    console.log("here");
+    //console.log("here");
     const formItem = document.getElementById("formMenu");
     formItem.style.transform = "translateX(10%)";
 

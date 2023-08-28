@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+
 
 .landing-page {
     height: 110vh;
@@ -6,7 +7,7 @@
     position: relative;
     z-index: 0;
     margin-bottom: -60px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', cursive;
     position: relative;
     overflow: hidden;
   }
@@ -113,10 +114,6 @@
 
 
 
-
- 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -124,7 +121,7 @@
 }
 
 body {
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', cursive;
 }
 
 .barContainer {
@@ -159,20 +156,21 @@ body {
 .formItem .formMenu {
   position: relative;
   padding-top: 120px;
-  top: 10vh;
-  height: 80vh;
+  top: 5vh;
+  height: 90vh;
   width: 100%;
   transform: translateX(120%);
   margin-left: -40px;
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
-  background-color: rgba(141, 138, 139, 1); /* Adjusted background color with opacity */
+  background-color: rgba(236, 192, 201, 0.6);
+  backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; 
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 
@@ -185,8 +183,11 @@ form {
 }
 
 .formTitle {
-  font-size: 4vw;
+  font-size: 5vw;
   margin-bottom: 10%;
+  font-family: 'Comfortaa', cursive;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 
@@ -197,6 +198,8 @@ label {
   margin-right: 10px;
   display: inline-block;
   margin-bottom: 2vw;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 input {
@@ -208,18 +211,22 @@ input {
   border-radius: 2vw;
   font-size: 3vw;
   text-align: center;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .submitButton {
   width: 50%;
   height: 10%;
-  background-color: #ccc;
+  background-color: #E5017D;
   color: black;
   padding: 10px;
   border: none;
   cursor: pointer;
   border-radius: 20vw; /* Adjust the value as needed */
   font-size: 5vw;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .close {
