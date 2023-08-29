@@ -33,15 +33,17 @@ window.addEventListener("scroll", function () {
     // Apply the calculated opacity to the video element
     document.querySelector(".video-bg").style.opacity = desiredOpacity;
     document.querySelector(".landing-page").style.top = `${desiredTop}px`;
-
+    //console.log({ scrollPercentage })
     if (scrollPercentage > 0.4) {
         document.querySelector(".whyDoc").style.backgroundColor = backgroundColor;
+        document.querySelector(".blog").style.backgroundColor = backgroundColor;
 
         const ourServicesLinks = document.querySelectorAll(".our-services a");
         ourServicesLinks.forEach(link => {
             link.style.backgroundColor = backgroundColor;
         });
     }
+
 
     if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
     else {
@@ -69,10 +71,9 @@ window.addEventListener("scroll", function () {
 
     //console.log({ whyScroll })
 
-
+    //console.log(document.querySelector(".container").style.top)
     if (whyScroll > -40) document.querySelector(".container").style.top = `${containerStart + whyScroll}%`;
-
-
+    if (scrollPercentage > 0.8) document.querySelector(".container").style.top = `2.17%`;
 });
 
 const button = document.getElementById("askButton");
