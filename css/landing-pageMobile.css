@@ -185,6 +185,7 @@ form {
 .formTitle {
   font-size: 5vw;
   margin-bottom: 10%;
+  position: relative;
   font-family: 'Comfortaa', cursive;
   color: #ffffff;
   font-weight: bold;
@@ -227,6 +228,7 @@ input {
   font-size: 5vw;
   color: #ffffff;
   font-weight: bold;
+  justify-content: center;
 }
 
 .close {
