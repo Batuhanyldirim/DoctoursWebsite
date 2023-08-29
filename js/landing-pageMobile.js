@@ -28,8 +28,6 @@ window.addEventListener("scroll", function () {
     const backgroundColorB = 255 - Math.round(26 * 6 * (scrollPercentage - colorStart)); // Adjust the B component
     const backgroundColor = `rgb(${backgroundColorR}, ${backgroundColorG}, ${backgroundColorB})`;
 
-
-
     // Apply the calculated opacity to the video element
     document.querySelector(".video-bg").style.opacity = desiredOpacity;
     document.querySelector(".landing-page").style.top = `${desiredTop}px`;
