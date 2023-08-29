@@ -101,3 +101,36 @@ const closeButton = document.querySelector('.close');
 closeButton.addEventListener('click', function (event) {
     formItem.style.transform = "translateX(120%)";
 });
+
+
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Gather form data
+    const formData = new FormData(this);
+
+    // Convert form data to a JSON object
+    const formDataJson = {};
+    formData.forEach((value, key) => {
+        formDataJson[key] = value;
+    });
+    console.log({ formDataJson })
+    // Send data using AJAX (Assuming you're using the Fetch API)
+    fetch("https://bwin4nbzb5.execute-api.eu-north-1.amazonaws.com/mailDeneme1", {
+        method: "POST",
+        body: JSON.stringify(formDataJson),
+        headers: {
+            "Content-Type": "application/json",
+        },
+        mode: "no-cors", // Use no-cors mode
+    })
+        .then(response => {
+            // You won't be able to access response data directly
+            console.log("Request sent successfully");
+        })
+        .catch(error => {
+            // Handle errors
+            console.error("Error:", error);
+        });
+
+});
