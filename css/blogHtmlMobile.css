@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.blogHtml {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-top: 100px;
+    font-family: 'Comfortaa';
+    overflow: hidden;
+    margin-bottom: 10%;
+  }
+
+  .blogPageTitle{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      font-size: 10vw;
+      margin-top: 10%;
+  }
+
+
+.blogItem {
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.blogItem a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogTexts {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clickText{
+  align-self: end;
+  text-align: end;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+.blogItem img{
+  width: 40vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10vw;
+}
+
+.itemTitle{
+  font-size: 5vw;
+}
+
+.blogLinkCase{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vw;
+
+}
+
+.blogLinkCase a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50%;
+  width: 40vw;
+  background-color: #E5017D;
+  border-radius: 10vw;
+  text-decoration: none;
+  font-size: 3vw;
+  color: black;
+}
