@@ -216,7 +216,7 @@ label {
   font-weight: bold;
 }
 
-input {
+.formInput {
   width: 100%;
   height: 8%;
   padding: 10px;

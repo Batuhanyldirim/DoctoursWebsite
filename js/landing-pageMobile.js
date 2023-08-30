@@ -4,9 +4,12 @@ var reviceCheck3 = false;
 var reviceCheck4 = false;
 var submitted = false
 var labels = document.querySelectorAll('label');
-var inputs = document.querySelectorAll('input');
+var inputs = document.querySelectorAll('.formInput');
 const formTitle = document.querySelector('.formTitle');
 const submitButton = document.querySelector('.submitButton');
+const formItem = document.getElementById("formMenu");
+const navBar = document.getElementById("menu-items");
+const checkboxElement = document.querySelector('.checkbox');
 window.addEventListener("scroll", function () {
     // Get the scroll position as a value between 0 and 1
     const scrollPercentage = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
@@ -94,9 +97,6 @@ button.addEventListener("click", function () {
 
 });
 
-const formItem = document.getElementById("formMenu");
-const navBar = document.getElementById("menu-items");
-const checkboxElement = document.querySelector('.checkbox');
 window.addEventListener("click", function (event) {
     if ((!formItem.contains(event.target) && event.target != button)) {
         formItem.style.transform = "translateX(120%)";
