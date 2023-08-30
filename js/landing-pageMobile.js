@@ -17,7 +17,7 @@ window.addEventListener("scroll", function () {
     // Calculate the desired opacity based on the scroll percentage
     const desiredOpacity = 1 - scrollPercentage * 4;
     const desiredTop = -1000 * scrollPercentage;
-    const serviceAnimation = 900 * scrollPercentage;
+    const serviceAnimation = 1200 * scrollPercentage;
     const servicesStart1 = -100;
     const servicesStart2 = -150;
     const servicesStart3 = -200;
@@ -67,7 +67,7 @@ window.addEventListener("scroll", function () {
         reviceCheck4 = true;
     }
 
-    const whyScroll = -120 * scrollPercentage;
+    const whyScroll = -150 * scrollPercentage;
     const containerStart = 42;
 
     //console.log({ whyScroll })
