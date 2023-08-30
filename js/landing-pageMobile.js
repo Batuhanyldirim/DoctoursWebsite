@@ -90,6 +90,7 @@ button.addEventListener("click", function () {
     formTitle.style.top = "0%";
     formTitle.textContent = "Tell us what you need and we will contact you back!";
     submitButton.textContent = "Submit";
+    submitButton.style.top = "0%";
 
 });
 
@@ -150,11 +151,10 @@ document.getElementById("contactForm").addEventListener("submit", function (even
         })
             .then(response => {
                 // You won't be able to access response data directly
-                const formTitle = document.querySelector('.formTitle');
                 formTitle.textContent = "Message has sent successfully";
-                formTitle.style.top = "30%";
                 submitButton.style.display = "block";
                 submitButton.textContent = "Go Home";
+                submitButton.style.top = "50%";
                 console.log("Request sent successfully");
             })
             .catch(error => {

@@ -176,13 +176,26 @@ body {
 
 
 
-form {
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 90%;
   height: 90%;
   margin: 0 auto;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.contactForm.submitted {
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
 }
 
 .formTitle {
+  position: relative;
   font-size: 5vw;
   margin-bottom: 10%;
   position: relative;
@@ -217,6 +230,7 @@ input {
 }
 
 .submitButton {
+  position: relative;
   width: 50%;
   height: 10%;
   background-color: #E5017D;
@@ -229,6 +243,7 @@ input {
   color: #ffffff;
   font-weight: bold;
   justify-content: center;
+  align-self:flex-start;
 }
 
 .close {
