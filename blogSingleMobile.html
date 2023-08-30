@@ -4,9 +4,9 @@
 <head>
     <title>Blog Post</title>
     <link rel="icon" href="images/logo2.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleMobile.css">
     <link rel="stylesheet" href="css/navbarMobile.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contactMobile.css">
     <link rel="stylesheet" href="css/blogSingleMobile.css">
 </head>
 <body>
@@ -21,13 +21,13 @@
             <span class="line line3"></span>
           </div>  
         <div class="logo">
-          <img src="images/logo.png"></img>
+          <a href="homeMobile.html"><img src="images/logo.png"></img></a>
         </div>
         <div class="menu-items" id="menu-items">
-          <li><a href="#serviceTitle">OUR SERVICES</a></li>
-          <li><a href="#whyDocTitle">WHY DOCTOURS</a></li>
-          <li><a href="#blog">BLOG</a></li>
-          <li><a href="#contactBig">CONTACT</a></li>
+          <li><a href="homeMobile.html#serviceTitle">OUR SERVICES</a></li>
+          <li><a href="homeMobile.html#whyDocTitle">WHY DOCTOURS</a></li>
+          <li><a href="homeMobile.html#blog">BLOG</a></li>
+          <li><a href="homeMobile.html#contactBig">CONTACT</a></li>
         </div>
       </div>
     </div>
@@ -96,10 +96,10 @@ var blogPostsData = [
         signs of sagging again due to aging. Nevertheless, aesthetic procedures typically provide significant effects that 
         last for years and can help achieve a more youthful and vibrant appearance.`],
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingleMobile.html?id=post1",
         imageUrls: ["images/facial2.jpg","pass","pass","pass","images/facial1.jpg","pass","pass","pass","pass"],
         coverImg:"images/facial2.jpg",
-        relatedPosts: [1,2,3]
+        buttonUrl:"blogSingleMobile.html?id=post1",
+        relatedPosts: [1,2]
     },
     {
         id: "post2",
@@ -128,10 +128,42 @@ var blogPostsData = [
         injection. Our specialist can determine the most appropriate treatment plan based on individual needs and expectations and 
         administer Botox injections safely.`],
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingleMobile.html?id=post2",
         imageUrls: ["pass","pass","images/botox2.jpg","pass","pass","pass","pass","pass","pass"],
         coverImg:"images/botox2.jpg",
-        relatedPosts: [0,2,3]
+        buttonUrl:"blogSingleMobile.html?id=post2",
+        relatedPosts: [0,2]
+    },
+    {
+        id: "post3",
+        title: `What is a Botox injection?`,
+        description: [
+        `What is a Botox injection?`,
+        `A Botox injection is a cosmetic treatment method that uses a protein called botulinum toxin type A. 
+        Botulinum toxin temporarily relaxes muscles by blocking nerve signals from nerves to muscles.`,
+        `Botox injections are used to reduce wrinkles and fine lines on the face. They are most commonly applied to 
+        the forehead, frown lines between the eyebrows, crow's feet, and eyebrow areas. Botulinum toxin limits the 
+        movement of facial muscles, temporarily paralyzing them and reducing the appearance of wrinkles. Additionally, 
+        it provides a tighter look on the face, resulting in a more youthful appearance.`,
+        `Botox injections are a non-surgical procedure that does not require anesthesia. The botulinum toxin is directly 
+        injected into the muscles using a needle. The procedure is typically quick and relatively painless. Results usually 
+        become noticeable within a few days to a week and typically last for 3 to 6 months. After this period, Botox injections 
+        can be repeated.`,
+        `Botox injections are effective in treating dynamic wrinkles (wrinkles formed by facial expressions). These are typically 
+        found in areas such as forehead lines, frown lines, and crow's feet. Botulinum toxin temporarily stops excessive muscle 
+        activity, reducing the appearance of these wrinkles.`,
+        `Botox injections are a safe and low-risk procedure. However, some common side effects may include temporary redness, 
+        swelling, or bruising at the injection site. In rare cases, temporary headaches, dry eyes, or drooping eyelids may occur. 
+        These effects are entirely reversible.`,
+        `Botox injections are a popular option for individuals seeking to reduce facial wrinkles and achieve a more youthful and 
+        refreshed appearance. However, it may not be suitable for everyone, and certain health conditions or medications may prevent 
+        individuals from undergoing Botox treatment. Therefore, it is important to consult with a specialist before planning a Botox 
+        injection. Our specialist can determine the most appropriate treatment plan based on individual needs and expectations and 
+        administer Botox injections safely.`],
+        buttonLabel: `More >>`,
+        imageUrls: ["pass","pass","images/botox2.jpg","pass","pass","pass","pass","pass","pass"],
+        coverImg:"images/botox2.jpg",
+        buttonUrl:"blogSingleMobile.html?id=post3",
+        relatedPosts: [0,1]
     },
   
       
@@ -181,13 +213,11 @@ var blogPostsData = [
       // Handle the case when the blog post data is not found
       // For example, show an error message or redirect to a 404 page
     }
-
-    singlePostData.relatedPosts.forEach(function (post, index){
+    for(var i = 0; i < singlePostData.relatedPosts.length; i++){
+      var post = singlePostData.relatedPosts[i]
 
       var postElement = document.createElement("div");
       postElement.classList.add("relatedPost");
-
-      console.log(JSON.stringify(blogPostsData[post]));
       
 
       var postLink = document.createElement("a");
@@ -208,76 +238,46 @@ var blogPostsData = [
       postLink.appendChild(postTitle);
       postElement.appendChild(postLink);
       blogRightElm.appendChild(postElement);
-    })
+    }
 
 
   </script>
 
 
-<div class="contactSmall" id="contactSmall">
-  <div class="contLeft">
-    <div class="contactInfo" id="contactInfo">
-      <div class="contInfoLeft">
-        <div>
-          phone
-        </div>
-        <div>
-          email
-        </div>
-        <div>
-          follow us
-        </div>
-      </div>
-      <div class="contInfoRight">
-        <div>
-          +90 545 350 01 45
-        </div>
-        <div>
-          info@doctours.com
-        </div>
-        <div class="smallIcons">
-          <a href="http://" target="_blank">
-            <img src="images/s.png" alt="Icon 1">
-          </a>
-          <a href="https://instagram.com/doctours.health?igshid=MzRlODBiNWFlZA==" target="_blank">
-            <img src="images/insta1.png" alt="Icon 2">
-          </a>
-          <a href="https://wa.me/905453500145" target="_blank">
-            <img src="images/whatsapp2.png" alt="Icon 3">
-          </a>
-          <a href="http://" target="_blank">
-            <img src="images/telegram1.png" alt="Icon 4">
-          </a>
-        </div>
-      </div>
-      <div class="endSide">
-        <div class="upEnd">
-          <p class="bigText">doctours</p>
-          <p class="smallText">your health companion in Turkey</p>
-        </div>
-        <div class="downEnd">
-          <div>
-            doctours © 2023
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="contRight">
-    <div class="galataText">
-      <div>Galata Tower</div>
-      <div>Istanbul</div>
-    </div>
+<div class="contact">
+  <div class="shade">
+    <form class="contactFormBottom" id="contactFormBottom" action="/homeMobile.html">
+      <div class="formTitleBottom">Tell us what you need and we will contact you back!</div>
+      <label class="labelBottom" for="name">Name and Surname:</label>
+      <input class="inputBottom" type="text" id="name" name="name">
+      <br>
+      <label class="labelBottom" for="phoneNumber">Phone Number:</label>
+      <input class="inputBottom" type="text" id="phoneNumber" name="phoneNumber" placeholder="ex: +90 555 555 55 55">
+      <br>
+      <label class="labelBottom" for="mailAddress">Mail Address:</label>
+      <input class="inputBottom" type="text" id="mailAddress" name="mailAddress" >
+      <br>
+      <label class="labelBottom" for="note">Your Note:</label>
+      <input class="inputBottom" type="text" id="note" name="note" placeholder="Tell us about the health service you are interested">
+      <br>
+      <button class="submitButton" type="submit">Submit</button>
+    </form>
   </div>
 </div>
 
 
 
+<div class="instaIcon">
+  <a href="https://instagram.com/doctours.health?igshid=MzRlODBiNWFlZA==" target="_blank">
+    <img src="images/insta.png">
+  </a>
+</div>
+
 <div class="wpIcon">
   <a href="https://wa.me/905453500145" target="_blank">
     <img src="images/whatsapp.png">
   </a>
-  </div>
+</div>
 
   
 </body>
