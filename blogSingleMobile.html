@@ -1,0 +1,284 @@
+<!-- blog-post.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Post</title>
+    <link rel="icon" href="images/logo2.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbarMobile.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/blogSingleMobile.css">
+</head>
+<body>
+
+  <nav>
+    <div class="navbar">
+      <div class="navigationContainer nav-container">
+          <input class="checkbox"  type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>  
+        <div class="logo">
+          <img src="images/logo.png"></img>
+        </div>
+        <div class="menu-items" id="menu-items">
+          <li><a href="#serviceTitle">OUR SERVICES</a></li>
+          <li><a href="#whyDocTitle">WHY DOCTOURS</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contactBig">CONTACT</a></li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="blog-post-container">
+  <div class="blogLeft" id="blogLeft">
+    <h2 class="blogTitle" id="blogTitle"></h2>
+    <div class="blogLine"></div>
+
+<!--    
+   <p id="blogDescription1"></p>
+
+    <img src="" alt="Image 3" class="blogImage1" id="blogImage1">
+
+    <p id="blogDescription2"></p>
+    <img src="" alt="Image 3" class="blogImage1" id="blogImage2">
+    <p id="blogDescription3"></p>
+    <img src="" alt="Image 3" class="blogImage1" id="blogImage3">
+    <p id="blogDescription4"></p> -->
+
+
+  </div>
+  <div class="blogRight", id="blogRight">
+    <div class="headerDiv">      
+      <div class="header1">similar</div>
+      <div class="header2">articles</div>
+    </div>
+  </div>
+
+
+  </div>
+
+  <script>
+
+var blogPostsData = [
+    {
+        id: "post1",
+        title: `What is facial aesthetics?`,
+        description: [`Facial aesthetics encompasses various services such as facelift, eyelid surgery, forehead lift, 
+        facial fillers, Botox injections, chin augmentation, and ear surgery.`,
+        `What is facial aesthetics?`,
+        `Facial aesthetics is the general term for surgical or non-surgical procedures performed to correct 
+          aesthetic issues in the facial area and improve the overall appearance of the face. These procedures are 
+          carried out with the aim of balancing facial features, reducing signs of aging, shaping facial contours, 
+          or correcting facial symmetry.`,
+          `What determines suitable candidates for facial aesthetics?`,
+        `Suitable candidates for facial aesthetics are typically healthy individuals who wish to correct 
+        or improve aesthetic issues on their faces. These issues may include signs of aging, sagging, wrinkles, 
+        nose deformities, jawline concerns, loss of cheek and lip volume, and other aesthetic concerns. Since each 
+        candidate's situation is unique, a consultation with our plastic surgeon will lead to the most accurate outcome.`,
+        `What are the facial aesthetics procedures?`,
+        `Facial aesthetics procedures can be performed using various techniques and methods. Some of the procedures 
+        include facelift (tightening of the face and neck skin), rhinoplasty (nose aesthetics), blepharoplasty (eyelid aesthetics), 
+        forehead lift (correcting forehead wrinkles), lip augmentation (increasing lip volume), cheek augmentation 
+        (enhancing cheek fullness), and other similar procedures.`,
+        `How long do facial aesthetics procedures take, and what is the recovery process like?`,
+        `The duration of facial aesthetics procedures depends on the type and complexity of the procedure. For example, a 
+        facelift procedure typically takes 4-6 hours, while smaller procedures can be completed in a shorter time. 
+        The recovery process also varies depending on the procedure. Generally, there may be swelling, bruising, and 
+        sensitivity in the first few weeks. The complete recovery process can take several weeks to a few months.
+        `,
+        `Are the results of facial aesthetics procedures permanent?`,
+        `The results of facial aesthetics procedures are usually long-lasting or permanent. However, since the aging process 
+        continues, some changes may occur over time. For example, a person who has undergone a facelift procedure may show 
+        signs of sagging again due to aging. Nevertheless, aesthetic procedures typically provide significant effects that 
+        last for years and can help achieve a more youthful and vibrant appearance.`],
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post1",
+        imageUrls: ["images/facial2.jpg","pass","pass","pass","images/facial1.jpg","pass","pass","pass","pass"],
+        coverImg:"images/facial2.jpg",
+        relatedPosts: [1,2,3]
+    },
+    {
+        id: "post2",
+        title: `What is a Botox injection?`,
+        description: [
+        `What is a Botox injection?`,
+        `A Botox injection is a cosmetic treatment method that uses a protein called botulinum toxin type A. 
+        Botulinum toxin temporarily relaxes muscles by blocking nerve signals from nerves to muscles.`,
+        `Botox injections are used to reduce wrinkles and fine lines on the face. They are most commonly applied to 
+        the forehead, frown lines between the eyebrows, crow's feet, and eyebrow areas. Botulinum toxin limits the 
+        movement of facial muscles, temporarily paralyzing them and reducing the appearance of wrinkles. Additionally, 
+        it provides a tighter look on the face, resulting in a more youthful appearance.`,
+        `Botox injections are a non-surgical procedure that does not require anesthesia. The botulinum toxin is directly 
+        injected into the muscles using a needle. The procedure is typically quick and relatively painless. Results usually 
+        become noticeable within a few days to a week and typically last for 3 to 6 months. After this period, Botox injections 
+        can be repeated.`,
+        `Botox injections are effective in treating dynamic wrinkles (wrinkles formed by facial expressions). These are typically 
+        found in areas such as forehead lines, frown lines, and crow's feet. Botulinum toxin temporarily stops excessive muscle 
+        activity, reducing the appearance of these wrinkles.`,
+        `Botox injections are a safe and low-risk procedure. However, some common side effects may include temporary redness, 
+        swelling, or bruising at the injection site. In rare cases, temporary headaches, dry eyes, or drooping eyelids may occur. 
+        These effects are entirely reversible.`,
+        `Botox injections are a popular option for individuals seeking to reduce facial wrinkles and achieve a more youthful and 
+        refreshed appearance. However, it may not be suitable for everyone, and certain health conditions or medications may prevent 
+        individuals from undergoing Botox treatment. Therefore, it is important to consult with a specialist before planning a Botox 
+        injection. Our specialist can determine the most appropriate treatment plan based on individual needs and expectations and 
+        administer Botox injections safely.`],
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post2",
+        imageUrls: ["pass","pass","images/botox2.jpg","pass","pass","pass","pass","pass","pass"],
+        coverImg:"images/botox2.jpg",
+        relatedPosts: [0,2,3]
+    },
+  
+      
+  ];
+
+
+
+
+    // Retrieve the blog post ID from the URL parameter
+    var searchParams = new URLSearchParams(window.location.search);
+    var blogPostId = searchParams.get("id");
+
+    // Find the blog post data based on the ID
+    var singlePostData = blogPostsData.find(post => post.id === blogPostId);
+
+    // Populate the blog post content on the page
+    if (singlePostData) {
+      var longest = singlePostData.imageUrls.length > singlePostData.description.length? singlePostData.imageUrls.length :singlePostData.description.length;
+
+      document.getElementById("blogTitle").textContent = singlePostData.title;
+      
+      for(var i = 0;i<longest;i++) {
+        var blogLeftElm = document.getElementById("blogLeft");
+        if(i<singlePostData.description.length){
+          var blogText = document.createElement("p");
+          blogText.textContent = singlePostData.description[i]
+          blogText.classList.add(`blogDescription`);
+          blogLeftElm.appendChild(blogText);
+
+          //document.getElementById(`blogDescription${i}`).textContent = singlePostData.description[i];
+        }  
+        if(i<singlePostData.imageUrls.length && singlePostData.imageUrls[i]!="pass") {
+          var blogImg = document.createElement("img");
+          blogImg.src = singlePostData.imageUrls[i]
+          blogImg.classList.add(`blogImage`);
+          blogLeftElm.appendChild(blogImg);
+          
+          //document.getElementById(`blogImage${i}`).src = singlePostData.imageUrls[i];
+        } 
+        else if(i<singlePostData.imageUrls.length && singlePostData.imageUrls[i]=="pass"){
+          blogLeftElm.appendChild(document.createElement("br"));
+        }
+        
+      }
+      
+    } else {
+      // Handle the case when the blog post data is not found
+      // For example, show an error message or redirect to a 404 page
+    }
+
+    singlePostData.relatedPosts.forEach(function (post, index){
+
+      var postElement = document.createElement("div");
+      postElement.classList.add("relatedPost");
+
+      console.log(JSON.stringify(blogPostsData[post]));
+      
+
+      var postLink = document.createElement("a");
+      postLink.href = blogPostsData[post].buttonUrl;
+      postLink.classList.add("postLink"); 
+
+      var postImage = document.createElement("img");
+      postImage.classList.add("postImage");
+      postImage.src = blogPostsData[post].coverImg;
+
+      var postTitle = document.createElement("h2");
+      postTitle.classList.add("relatedPostTitle");
+      postTitle.textContent = blogPostsData[post].title;
+
+
+      var blogRightElm = document.getElementById("blogRight");
+      postLink.appendChild(postImage);
+      postLink.appendChild(postTitle);
+      postElement.appendChild(postLink);
+      blogRightElm.appendChild(postElement);
+    })
+
+
+  </script>
+
+
+<div class="contactSmall" id="contactSmall">
+  <div class="contLeft">
+    <div class="contactInfo" id="contactInfo">
+      <div class="contInfoLeft">
+        <div>
+          phone
+        </div>
+        <div>
+          email
+        </div>
+        <div>
+          follow us
+        </div>
+      </div>
+      <div class="contInfoRight">
+        <div>
+          +90 545 350 01 45
+        </div>
+        <div>
+          info@doctours.com
+        </div>
+        <div class="smallIcons">
+          <a href="http://" target="_blank">
+            <img src="images/s.png" alt="Icon 1">
+          </a>
+          <a href="https://instagram.com/doctours.health?igshid=MzRlODBiNWFlZA==" target="_blank">
+            <img src="images/insta1.png" alt="Icon 2">
+          </a>
+          <a href="https://wa.me/905453500145" target="_blank">
+            <img src="images/whatsapp2.png" alt="Icon 3">
+          </a>
+          <a href="http://" target="_blank">
+            <img src="images/telegram1.png" alt="Icon 4">
+          </a>
+        </div>
+      </div>
+      <div class="endSide">
+        <div class="upEnd">
+          <p class="bigText">doctours</p>
+          <p class="smallText">your health companion in Turkey</p>
+        </div>
+        <div class="downEnd">
+          <div>
+            doctours © 2023
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contRight">
+    <div class="galataText">
+      <div>Galata Tower</div>
+      <div>Istanbul</div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="wpIcon">
+  <a href="https://wa.me/905453500145" target="_blank">
+    <img src="images/whatsapp.png">
+  </a>
+  </div>
+
+  
+</body>
+</html>

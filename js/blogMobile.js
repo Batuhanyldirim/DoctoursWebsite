@@ -5,7 +5,7 @@ var blogPostsData = [
         description: `Every individuae way that enhances the self-confidence and improves 
         the aesthetic appearanc`,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post1",
+        buttonUrl: "blogSingleMobile.html?id=post1",
         imageUrls: "images/nose-dummy.jpg",
     },
     {
@@ -15,7 +15,7 @@ var blogPostsData = [
         rhinoplasty process,  
         changing...`,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post2",
+        buttonUrl: "blogSingleMobile.html?id=post2",
         imageUrls: "images/hair1.jpg"
     },
     {
@@ -26,7 +26,7 @@ var blogPostsData = [
         and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
         changing...`,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post2",
+        buttonUrl: "blogSingleMobile.html?id=post2",
         imageUrls: "images/dental1.jpg"
     },
     {
@@ -37,7 +37,7 @@ var blogPostsData = [
         and evaluate their references. Setting realistic expectations: Rhinoplasty is a surgical procedure aimed at improving or 
         changing...`,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post2",
+        buttonUrl: "blogSingleMobile.html?id=post2",
         imageUrls: "images/hair1.jpg"
     }
 ];
