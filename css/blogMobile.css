@@ -66,11 +66,10 @@
 
 
 .itemTitle {
+  display: flex;
   position: relative;
   font-size: 4vw;
-  overflow-wrap: break-word; /* Allow text to wrap onto multiple lines */
-  word-wrap: break-word; /* Additional property for browser compatibility */
-  text-align: center; /* Center the text horizontally */
+  overflow-wrap: break-word; 
 }
 
 .blogTitle {
