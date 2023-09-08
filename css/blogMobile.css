@@ -32,23 +32,22 @@
   display: flex;
   position: relative;
   width: 80%;
+  border-radius: 20%;
 }
 
 .imageContainer img {
   display: flex;
   position: relative;
   width: 100%;
-  border-radius: 15%;
 }
 .blogShadow {
   display: flex;
   position: absolute;
   align-self: flex-end;
   width: 100%;
-  height: 30%;
+  height: 15%;
   background-color: black;
   opacity: 0.5;
-  border-radius: 15%;
 }
 
 .blogTexts {
@@ -57,14 +56,21 @@
   align-items: center;
   position: absolute;
   width: 100%;
-  height: 15%;
-  bottom: 0%;
+  padding: 10%; /* Add padding to control the height */
+  bottom: 0;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center; /* Center the text horizontally */
+  box-sizing: border-box; /* Include padding in the height and width calculations */
 }
 
+
 .itemTitle {
-  display: flex;
   position: relative;
-  font-size: 5vw;
+  font-size: 4vw;
+  overflow-wrap: break-word; /* Allow text to wrap onto multiple lines */
+  word-wrap: break-word; /* Additional property for browser compatibility */
+  text-align: center; /* Center the text horizontally */
 }
 
 .blogTitle {
