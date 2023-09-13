@@ -24,5 +24,11 @@
 .serviceText {
     margin-top: 2vw;
     position: relative;
-    font-size: 1.5vw;
+    font-size: 3vw;
+}
+.rightSide {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 5vw;
 }
