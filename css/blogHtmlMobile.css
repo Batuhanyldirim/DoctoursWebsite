@@ -5,28 +5,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #ffffff;
+    background-color:rgb(205, 224, 241);
     padding-top: 100px;
     font-family: 'Comfortaa';
     overflow: hidden;
-    margin-bottom: 10%;
   }
 
   .blogPageTitle{
       display: flex;
       width: 100%;
       justify-content: center;
+      align-items: center;
       font-size: 10vw;
       margin-top: 10%;
+      margin-bottom: 10%;
+
   }
 
 
 .blogItem {
   width: 100%;
-  margin-top: 15%;
+  margin-bottom: 15%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-self: center;
 }
 
 .blogItem a {
