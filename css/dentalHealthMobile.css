@@ -1,0 +1,28 @@
+.dentalHealth{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.service{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 20%;
+}
+.service img{
+    position: relative;
+    width: 30vw;
+    height: auto;
+    margin: 5vw;
+}
+.header {
+    position: relative;
+    font-size: 5vw;
+    font-weight: bold;
+}
+.serviceText {
+    margin-top: 2vw;
+    position: relative;
+    font-size: 1.5vw;
+}
