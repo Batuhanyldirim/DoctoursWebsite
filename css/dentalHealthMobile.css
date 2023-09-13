@@ -2,7 +2,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    margin-bottom: 10%;
+    background-color: antiquewhite;
 }
 .service{
     display: flex;
