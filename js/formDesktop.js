@@ -35,3 +35,49 @@ window.addEventListener("click", function (event) {
         formItem.style.transform = "translateX(200%)";
     }
 });
+
+
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+    if (!submitted) {
+        // Gather form data
+        submitted = true;
+        const formData = new FormData(this);
+
+        // Convert form data to a JSON object
+        const formDataJson = {};
+        formData.forEach((value, key) => {
+            formDataJson[key] = value;
+        });
+
+        var max = labels.length > inputs.length ? labels.length : inputs.length
+        for (var i = 0; i < max; i++) {
+            if (labels.length > i) labels[i].style.display = "none";
+            if (inputs.length > i) inputs[i].style.display = "none";
+        }
+
+        submitButton.style.display = "none";
+        formTitle.style.top = "30%";
+        formTitle.textContent = "Message is sending...";
+        fetch("https://bwin4nbzb5.execute-api.eu-north-1.amazonaws.com/mailDeneme1", {
+            method: "POST",
+            body: JSON.stringify(formDataJson),
+            headers: {
+                "Content-Type": "application/json",
+            },
+            mode: "no-cors", // Use no-cors mode
+
+        })
+            .then(response => {
+                // You won't be able to access response data directly
+                formTitle.textContent = "Message has sent successfully";
+                submitButton.style.display = "block";
+                submitButton.textContent = "Go Home";
+                submitButton.style.top = "50%";
+            })
+            .catch(error => {
+                // Handle errors
+            });
+    }
+    else formItem.style.transform = "translateX(200%)";
+});
