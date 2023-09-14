@@ -30,15 +30,14 @@ window.addEventListener("scroll", function () {
 
     // Update the background color based on the scroll percentage
     const colorStart = 0.40;
-    const backgroundColorR = 255 - Math.round(48 * 6 * (scrollPercentage - colorStart)); // Adjust the R component
-    const backgroundColorG = 255 - Math.round(26 * 6 * (scrollPercentage - colorStart)); // Adjust the G component
-    const backgroundColorB = 255 - Math.round(26 * 6 * (scrollPercentage - colorStart)); // Adjust the B component
+    const backgroundColorR = 255 - Math.round(48 * 6 * (scrollPercentage - colorStart));
+    const backgroundColorG = 255 - Math.round(26 * 6 * (scrollPercentage - colorStart));
+    const backgroundColorB = 255 - Math.round(26 * 6 * (scrollPercentage - colorStart));
     const backgroundColor = `rgb(${backgroundColorR}, ${backgroundColorG}, ${backgroundColorB})`;
 
     // Apply the calculated opacity to the video element
     document.querySelector(".video-bg").style.opacity = desiredOpacity;
     document.querySelector(".landing-page").style.top = `${desiredTop}px`;
-    //console.log({ scrollPercentage })
     if (scrollPercentage > 0.4) {
         document.querySelector(".whyDoc").style.backgroundColor = backgroundColor;
         document.querySelector(".blog").style.backgroundColor = backgroundColor;
@@ -74,9 +73,6 @@ window.addEventListener("scroll", function () {
     const whyScroll = -150 * scrollPercentage;
     const containerStart = 42;
 
-    //console.log({ whyScroll })
-
-    //console.log(document.querySelector(".container").style.top)
     if (whyScroll > -40) document.querySelector(".container").style.top = `${containerStart + whyScroll}%`;
     if (scrollPercentage > 0.8) document.querySelector(".container").style.top = `2.17%`;
 });
@@ -84,7 +80,7 @@ window.addEventListener("scroll", function () {
 const button = document.getElementById("askButton");
 
 button.addEventListener("click", function () {
-    //console.log("here");
+
     const formItem = document.getElementById("formMenu");
     formItem.style.transform = "translateX(10%)";
     submitted = false
@@ -159,11 +155,9 @@ document.getElementById("contactForm").addEventListener("submit", function (even
                 submitButton.style.display = "block";
                 submitButton.textContent = "Go Home";
                 submitButton.style.top = "50%";
-                console.log("Request sent successfully");
             })
             .catch(error => {
                 // Handle errors
-                console.error("Error:", error);
             });
     }
     else formItem.style.transform = "translateX(120%)";
@@ -173,7 +167,6 @@ document.getElementById("contactForm").addEventListener("submit", function (even
 document.getElementById("contactFormBottom").addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent the default form submission behavior
 
-    console.log("here")
     if (!submitted) {
         // Gather form data
         submitted = true;
@@ -183,8 +176,6 @@ document.getElementById("contactFormBottom").addEventListener("submit", function
         formData.forEach((value, key) => {
             formDataJson[key] = value;
         });
-        console.log({ labelsBottom })
-        console.log({ inputsBottom })
         var max = labelsBottom.length > inputsBottom.length ? labelsBottom.length : inputsBottom.length
         for (var i = 0; i < max; i++) {
 
@@ -210,11 +201,9 @@ document.getElementById("contactFormBottom").addEventListener("submit", function
                 submitButtonBottom.style.display = "block";
                 submitButtonBottom.textContent = "Fill a New Form";
                 submitButtonBottom.style.top = "50%";
-                console.log("Request sent successfully");
             })
             .catch(error => {
                 // Handle errors
-                console.error("Error:", error);
             });
     }
     else {

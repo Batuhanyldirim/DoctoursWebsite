@@ -7,7 +7,6 @@ const submitButtonBottom = document.querySelector('.submitButtonBottom');
 document.getElementById("contactFormBottom").addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent the default form submission behavior
 
-    console.log("here")
     if (!submitted) {
         // Gather form data
         submitted = true;
@@ -17,8 +16,6 @@ document.getElementById("contactFormBottom").addEventListener("submit", function
         formData.forEach((value, key) => {
             formDataJson[key] = value;
         });
-        console.log({ labelsBottom })
-        console.log({ inputsBottom })
         var max = labelsBottom.length > inputsBottom.length ? labelsBottom.length : inputsBottom.length
         for (var i = 0; i < max; i++) {
 
@@ -44,11 +41,9 @@ document.getElementById("contactFormBottom").addEventListener("submit", function
                 submitButtonBottom.style.display = "block";
                 submitButtonBottom.textContent = "Fill a New Form";
                 submitButtonBottom.style.top = "50%";
-                console.log("Request sent successfully");
             })
             .catch(error => {
                 // Handle errors
-                console.error("Error:", error);
             });
     }
     else {

@@ -10,9 +10,6 @@ $(document).ready(function () {
         // Loop through each section to find the active one
         $(".navbar li").each(function () {
             var sectionId = $(this).find("a").attr("href");
-            /*             console.log("$(this).scrollTop());", scrollPosition)
-                        console.log({ sectionId });
-                        console.log("offset", $(sectionId).offset()); */
             var sectionTop = $(sectionId).offset().top - 400; // Adjust the offset to fit your design
 
             // Check if the current section is in view
