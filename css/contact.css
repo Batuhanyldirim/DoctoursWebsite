@@ -104,16 +104,16 @@
 .contactBig .endSide .smallText {
   font-size: 1.5vw;
   color: #ffffff;
-  margin: 1px 0; /* Adjust the vertical margin as needed */
-  padding: 0; /* Remove any additional padding */
+  margin: 1px 0;
+  padding: 0; 
   position: relative;
   top: 0px;
 }
 
 .contactBig .smallIcons img {
-  width: 24px; /* Adjust the width of the icons as needed */
-  height: auto; /* Adjust the height of the icons as needed */
-  margin-right: 5px; /* Add some space between icons */
+  width: 24px;
+  height: auto;
+  margin-right: 5px; 
 }
 .contactBig a , .contactSmall a{
   text-decoration: none;

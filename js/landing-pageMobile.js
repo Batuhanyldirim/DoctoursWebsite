@@ -94,7 +94,6 @@ button.addEventListener("click", function () {
     formTitle.textContent = "Tell us what you need and we will contact you back!";
     submitButton.textContent = "Submit";
     submitButton.style.top = "0%";
-
 });
 
 window.addEventListener("click", function (event) {
