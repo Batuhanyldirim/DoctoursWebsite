@@ -87,6 +87,7 @@
 .serviceTitle {
   position: relative;
   font-size: 8vw;
+  font-weight: bold;
   color: rgb(0, 0, 0);
   font-family: 'Comfortaa', cursive;
   text-align: center;

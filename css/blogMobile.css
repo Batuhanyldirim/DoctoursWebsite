@@ -75,6 +75,7 @@
 .blogTitle {
   position: relative;
   font-size: 10vw;
+  font-weight: bold;
 }
 
 .blogLinkCase{
