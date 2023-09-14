@@ -15,7 +15,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/navigationBar.js"></script>
   <script src="js/whyDoc.js"></script>
-  <script type="module" src="js/blog.js"></script>
+  <script type="module" src="js/formDesktop.js"></script>
   <meta charset="UTF-8">
 </head>
 <body>
@@ -34,11 +34,43 @@
       <li><a href="#contactBig">Contact</a></li>
     </ul>
   </div>
+
+
+  <nav>
+    <div class="formItem">
+      <div class="barContainer bar-container">
+        <div class="formMenu" id="formMenu">
+          <form class="contactForm" id="contactForm" action="/homeMobile.html">
+            <button type="button" class="close" id="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="formTitle">Tell us what you need and we will contact you back!</div>
+            <label for="name">Name and Surname:</label>
+            <input class="formInput" type="text" id="name" name="name">
+            <br>
+            <label for="phoneNumber">Phone Number:</label>
+            <input class="formInput" type="text" id="phoneNumber" name="phoneNumber" placeholder="ex: +90 555 555 55 55">
+            <br>
+            <label for="mailAddress">Mail Address:</label>
+            <input class="formInput" type="text" id="mailAddress" name="mailAddress" >
+            <br>
+            <label for="note">Your Note:</label>
+            <textarea class="formInput" id="note" name="note" placeholder="Tell us about the health service you are interested" rows="4"></textarea>
+            <br>
+            <button class="submitButton" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
   
       
   <div class="landing-page" id="landing">
     <div class="shaded-side">
       <img src="images/pg1 text.png" alt="Image Description">
+      <div class="section-button">
+        <button class="askButton" id="askButton">Ask a doctor</button>
+      </div>
     </div>
     <div class="white-line ">
     </div>

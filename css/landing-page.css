@@ -24,20 +24,47 @@
   }
   
   .shaded-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
     width: 30vw;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .shaded-side img {
     width: calc((3vw + 1vh)*6); /* Adjust the width as desired */
     height: auto; /* Maintain aspect ratio */
+  }
+
+  .section-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    top: 5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  .askButton {
+    width: 20vw;
+    height: 7vw;
+    background-color: #E5017D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2vw;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10vw;
   }
   
 
@@ -82,4 +109,132 @@
   .small-photo img {
     width: 80px; /* Adjust the width of the small photo as desired */
     height: auto; /* Maintain aspect ratio */
+  }
+
+
+
+
+  .barContainer {
+    width: 90%;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .formItem {
+    display: flex;
+    position: relative;
+    top: 5vw;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+  }
+  
+  .bar-container {
+    display: block;
+    position: relative;
+    height: 60px;
+  }
+  
+ .formMenu {
+    position: relative;
+    margin-top: 2vw;
+    width: 60%;
+    transform: translateX(200%);
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+    background-color: rgba(236, 192, 201, 0.6);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .contactForm.submitted {
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .formTitle {
+    position: absolute;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-bottom:5%;
+    top: 50%;
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  
+  label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1vw;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 1vw;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .formInput {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2vw;
+    font-size: 1vw;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .submitButton {
+    position: relative;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 2vw;
+    width: 30%;
+    background-color: #E5017D;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20vw; /* Adjust the value as needed */
+    font-size: 1vw;
+    color: #ffffff;
+    font-weight: bold;
+    align-self:center;
+  }
+  
+  .close {
+    position: absolute;
+    right: 1%;
+    color: #333;
+    font-size: 4vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: transparent;
+    border: none;
   }
