@@ -28,6 +28,11 @@
   top: 50%;
 }
 
+.contactBig .leftDown {
+  display: flex;
+  flex-direction: row; 
+}
+
 .contactBig .contRight {
   background-image: url("../images/galata-yazisiz.png");
   background-repeat: no-repeat;
@@ -66,13 +71,13 @@
   margin-top: 50%;
 }
 
-.contactBig .endSide {
-  position: relative;
-  padding-bottom: 30px;
-  flex: 3;
-  text-align: right;
+.contactBig .contactInfoRight {
   display: flex;
   flex-direction: column;
+  position: relative;
+  flex: 3;
+  text-align: right;
+  padding: 3vw;
 }
 
 .contactBig .contInfoLeft div {
@@ -89,22 +94,25 @@
   margin-bottom: 10px;
 }
 
-.contactBig .endSide .bigText {
+.contactBig .bigText {
+  position: relative;
+  top: 0px;
+  height: auto;
+  text-align: end;
   font-size: 4vw;
   color: #ffffff;
   margin: 1px 0; /* Adjust the vertical margin as needed */
   padding: 0; /* Remove any additional padding */
   font-family: 'Comfortaa', cursive;
-  margin-top: 35%;
-  position: relative;
-  top: 0px;
-  height: auto;
+  margin-top: 5%;
+  margin-right: 5%;
 }
 
-.contactBig .endSide .smallText {
+.contactBig .smallText {
+  text-align: end;
+  margin-right: 5%;
   font-size: 1.5vw;
   color: #ffffff;
-  margin: 1px 0;
   padding: 0; 
   position: relative;
   top: 0px;
@@ -134,20 +142,9 @@
   font-size: 1vw;
 }
 
-.upEnd{
-  flex: 1;
-  margin-right: 5%;
-}
 
-.downEnd{
-  flex: 1;
-  display: flex;
-  align-items: end;
-  flex-direction: column;
-  margin-right: 1%;
-}
 
-.endSide .downEnd div {
+.tradeMark {
   position: absolute;
   bottom: 0;
   margin-right: 0.2vw;
@@ -156,11 +153,6 @@
   color: #ffffff;
   text-align: end;
 }
-
-
-
-
-
 
 
 
@@ -291,3 +283,81 @@
       text-align: end;
       font-size: 1vw;
     }
+
+
+
+
+
+    .contactFormBottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    
+    .formTitleBottom {
+      display: flex;
+      text-align: center;
+      font-size: 2vw;
+      margin-bottom: 2vw;
+      position: relative;
+      font-family: 'Comfortaa', cursive;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    
+    
+    .labelBottom {
+      font-weight: bold;
+      color: #333;
+      font-size: 1vw;
+      margin-right: 10px;
+      display: inline-block;
+      margin-bottom: 2vw;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    
+    .inputBottom {
+      width: 25vw;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 2%;
+      border-radius: 2vw;
+      font-size: 1vw;
+      text-align: center;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .formInputBottom {
+      width: 25vw;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 2%;
+      border-radius: 2vw;
+      font-size: 1vw;
+      text-align: center;
+      color: #000000;
+      font-weight: bold;
+    }
+
+
+    
+    .submitButtonBottom {
+      align-self: center;
+      width: 10vw;
+      height: 3vw;
+      background-color: #E5017D;
+      color: black;
+      border: none;
+      cursor: pointer;
+      border-radius: 20vw; /* Adjust the value as needed */
+      font-size: 2vw;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+  
