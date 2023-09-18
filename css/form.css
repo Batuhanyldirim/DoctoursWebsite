@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+
+.tradeMark {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 2%;
+  margin-right: 0.2vw;
+  font-family: 'Comfortaa';
+  font-size: 1vw;
+  color: #ffffff;
+  text-align: end;
+}
+
+
+
+
+
+
+    .contactFormBottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    
+    .formTitleBottom {
+      display: flex;
+      text-align: center;
+      font-size: 2vw;
+      margin-bottom: 2vw;
+      position: relative;
+      font-family: 'Comfortaa', cursive;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    
+    
+    .labelBottom {
+      font-weight: bold;
+      color: #333;
+      font-size: 1vw;
+      margin-right: 10px;
+      display: inline-block;
+      margin-bottom: 2vw;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    
+    .inputBottom {
+      width: 25vw;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 2%;
+      border-radius: 2vw;
+      font-size: 1vw;
+      text-align: center;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .formInputBottom {
+      width: 25vw;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 2%;
+      border-radius: 2vw;
+      font-size: 1vw;
+      text-align: center;
+      color: #000000;
+      font-weight: bold;
+    }
+
+
+    
+    .submitButtonBottom {
+      align-self: center;
+      width: 10vw;
+      height: 3vw;
+      background-color: #E5017D;
+      color: black;
+      border: none;
+      cursor: pointer;
+      border-radius: 20vw; /* Adjust the value as needed */
+      font-size: 2vw;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+  

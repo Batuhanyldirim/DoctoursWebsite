@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .contactBig {
-  height: 50vw;
+  height: auto !important;
   position: relative;
   z-index: 0;
   margin-bottom: -60px;
@@ -21,7 +21,7 @@
 
 .contactBig .contactInfo {
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
   justify-content: center;
   height: 100%;
   width: 100%;
@@ -46,18 +46,35 @@
   position: relative;
 }
 
-.contactBig .contInfoLeft {
-  position: relative;
-  height: calc((3.5vh - 1vw) * 8);;
-  flex:1;
+.contactInfoDown{
   display: flex;
-  text-align: right;
-  padding-right: 10px;
-  flex-direction: column;
-  border-right: 3px solid #E5017D;
-  margin-top: 50%;
-  /* border: 5px solid rgb(168, 32, 32);
-  box-sizing: border-box; */
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.contInfoDownLeft{
+  color: #ffffff;
+  height: 7vw;
+  padding-right: 1%;
+  border-right: 1px solid #E5017D;
+}
+.contInfoDownRight{
+  color: #ffffff;
+  height: 7vw;
+  padding-left: 1%;
+  border-left: 1px solid #E5017D;
+}
+
+.contInfoDownLeft div{
+  display: flex;
+  justify-content: end;
+  font-size: 2vw;
+}
+.contInfoDownRight div{
+  display: flex;
+  text-align: flex-start;
+  font-size: 2vw;
 }
 
 .contactBig .contInfoRight { 
@@ -71,21 +88,15 @@
   margin-top: 50%;
 }
 
-.contactBig .contactInfoRight {
+.contactBig .contactInfoLeft {
   display: flex;
   flex-direction: column;
   position: relative;
   flex: 3;
-  text-align: right;
   padding: 3vw;
 }
 
-.contactBig .contInfoLeft div {
-  font-size: 26px;
-  color: #ffffff;
-  font-family: 'Comfortaa', cursive;
-  margin-bottom: 10px;
-}
+
 
 .contactBig .contInfoRight div {
   font-size: 26px;
@@ -141,12 +152,14 @@
   text-align: end;
   font-size: 1vw;
 }
-
+ 
 
 
 .tradeMark {
   position: absolute;
   bottom: 0;
+  width: 100%;
+  right: 2%;
   margin-right: 0.2vw;
   font-family: 'Comfortaa';
   font-size: 1vw;
