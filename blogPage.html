@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/whyDoc.css">
   <script src="js/blog.js" defer></script>
+  <script type="module" src="js/formDesktopSmall.js"></script>
   <meta charset="UTF-8">
 </head>
 <body>
@@ -49,52 +50,63 @@
 
 
 
-  <div class="contactSmall" id="contactSmall">
+  <div class="contactBig" id="contactBig">
     <div class="contLeft">
       <div class="contactInfo" id="contactInfo">
-        <div class="contInfoLeft">
-          <div>
-            phone
-          </div>
-          <div>
-            email
-          </div>
-          <div>
-            follow us
-          </div>
-        </div>
-        <div class="contInfoRight">
-          <div>
-            +90 545 350 01 45
-          </div>
-          <div>
-            info@doctours.com
-          </div>
-          <div class="smallIcons">
-            <a href="http://" target="_blank">
-              <img src="images/s.png" alt="Icon 1">
-            </a>
-            <a href="https://instagram.com/doctours.health?igshid=MzRlODBiNWFlZA==" target="_blank">
-              <img src="images/insta1.png" alt="Icon 2">
-            </a>
-            <a href="https://wa.me/905453500145" target="_blank">
-              <img src="images/whatsapp2.png" alt="Icon 3">
-            </a>
-            <a href="http://" target="_blank">
-              <img src="images/telegram1.png" alt="Icon 4">
-            </a>
-          </div>
-        </div>
-        <div class="endSide">
-          <div class="upEnd">
-            <p class="bigText">doctours</p>
-            <p class="smallText">your health companion in Turkey</p>
-          </div>
-          <div class="downEnd">
-            <div>
+        <div class="contactInfoLeft">
+            <form class="contactFormBottom" id="contactFormBottom">
+              <div class="formTitleBottom">Tell us what you need and we will contact you back!</div>
+              <label class="labelBottom" for="name">Name and Surname:</label>
+              <input class="inputBottom" type="text" id="name" name="name">
+              <br>
+              <label class="labelBottom" for="phoneNumber">Phone Number:</label>
+              <input class="inputBottom" type="text" id="phoneNumber" name="phoneNumber" placeholder="ex: +90 555 555 55 55">
+              <br>
+              <label class="labelBottom" for="mailAddress">Mail Address:</label>
+              <input class="inputBottom" type="text" id="mailAddress" name="mailAddress" >
+              <br>
+              <label class="labelBottom" for="note">Your Note:</label>
+              <textarea class="formInputBottom" id="note" name="note" placeholder="Tell us about the health service you are interested" rows="4"></textarea>
+              <br>
+              <button class="submitButtonBottom" type="submitBottom">Submit</button>
+            </form>
+            <div class="contactInfoDown" id="contactInfoDown">
+              <div class="contInfoDownLeft">
+                <div>phone</div>
+                <div>email</div>
+                <div>follow us</div>
+              </div>
+              <div class="contInfoDownRight">
+                <div>+90 545 350 01 45</div>
+                <div>info@doctours.com</div>
+                <div class="smallIcons">
+                  <a href="http://" target="_blank">
+                    <img src="images/s.png" alt="Icon 1">
+                  </a>
+                  <a href="https://instagram.com/doctours.health?igshid=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images/insta1.png" alt="Icon 2">
+                  </a>
+                  <a href="https://wa.me/905453500145" target="_blank">
+                    <img src="images/whatsapp2.png" alt="Icon 3">
+                  </a>
+                  <a href="http://" target="_blank">
+                    <img src="images/telegram1.png" alt="Icon 4">
+                  </a>
+                </div>
+              </div>
+              <div class="downEndSide">
+                <div class="upEnd">
+                  <p class="bigText">doctours</p>
+                  <p class="smallText">your health companion in Turkey</p>
+                </div>
+                <div class="downEnd">
+                  <div>doctours © 2023</div>
+                </div>
+              </div>
+            </div>
+            <div class="tradeMark">
               doctours © 2023
             </div>
-          </div>
         </div>
       </div>
     </div>
