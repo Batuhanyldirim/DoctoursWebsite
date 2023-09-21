@@ -62,7 +62,7 @@ var blogPostsData = [
         such as titanium and are integrated into the jawbone.`,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post7",
-        imageUrls: "images/teeth op.jpg"
+        imageUrls: "images/teeth-aesth1.jpg"
     },
     {
         id: "post8",

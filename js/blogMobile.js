@@ -53,7 +53,7 @@ var blogPostsData = [
         description: ``,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingleMobile.html?id=post7",
-        imageUrls: "images/teeth op.jpg"
+        imageUrls: "images/teeth-aesth1.jpg"
     },
     {
         id: "post8",
@@ -94,6 +94,14 @@ var blogPostsData = [
         buttonLabel: `More >>`,
         buttonUrl: "blogSingleMobile.html?id=post12",
         imageUrls: "images/cauliflower-ear1.jpg"
+    },
+    {
+        id: "post13",
+        title: `TEETH WHITENING`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post12",
+        imageUrls: "images/teeth-aesth4.jpg"
     },
 ];
 
