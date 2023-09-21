@@ -98,7 +98,7 @@ var blogPostsData = [
 ];
 
 // Get the container element where the blog posts will be generated
-var blogPostsContainer = document.getElementById("blogHtml");
+var blogPostsContainer = document.getElementById("blogContainer");
 
 blogPostsData.forEach(function (post, index) {
 
@@ -110,7 +110,11 @@ blogPostsData.forEach(function (post, index) {
     // Create a container for the image and content
     var postLinkItem = document.createElement("a");
     postLinkItem.href = post.buttonUrl;
-    postLinkItem.textContent = post.buttonLabel;
+    //spostLinkItem.textContent = post.buttonLabel;
+
+    // Create an image container
+    var iamgeContainer = document.createElement("div");
+    iamgeContainer.classList.add("imageContainer");
 
     // Create the image element and set its source
     var imageElement = document.createElement("img");
@@ -126,14 +130,13 @@ blogPostsData.forEach(function (post, index) {
     itemTitle.textContent = post.title;
 
 
-    var linkElement = document.createElement("a");
-    linkElement.href = post.buttonUrl;
 
     // Append the elements to the blog post container
     textContainer.appendChild(itemTitle);
-    linkElement.appendChild(imageElement);
-    linkElement.appendChild(textContainer);
-    postElement.appendChild(linkElement);
+    iamgeContainer.appendChild(imageElement);
+    iamgeContainer.appendChild(textContainer);
+    postLinkItem.appendChild(iamgeContainer);
+    postElement.appendChild(postLinkItem);
     blogPostsContainer.appendChild(postElement);
 
 
