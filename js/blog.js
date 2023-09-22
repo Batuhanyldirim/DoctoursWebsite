@@ -2,120 +2,146 @@ var blogPostsData = [
     {
         id: "post1",
         title: `What is facial aesthetics?`,
-        description: `Facial aesthetics encompasses various services such as facelift, eyelid surgery, forehead lift, 
-        facial fillers, Botox injections, chin augmentation, and ear surgery.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post1",
+        buttonUrl: "blogSingleMobile.html?id=post1",
         imageUrls: "images/foto001-2.jpg",
     },
     {
         id: "post2",
         title: `What is a Botox injection?`,
-        description: `A Botox injection is a cosmetic treatment method that uses a protein called botulinum toxin type A. 
-        Botulinum toxin temporarily relaxes muscles by blocking nerve signals from nerves to muscles.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post2",
+        buttonUrl: "blogSingleMobile.html?id=post2",
         imageUrls: "images/botox2.jpg"
     },
     {
         id: "post3",
         title: `Learn More About Chemical Peeling`,
-        description: `Chemical peel is a cosmetic treatment method that involves controlled exfoliation of the skin's outer layer (epidermis) 
-        using a chemical solution. This procedure aims to rejuvenate the skin by improving skin tone, reducing pigmentation, 
-        lightening acne scars, smoothing fine wrinkles, and addressing sun damage and other skin issues.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post3",
+        buttonUrl: "blogSingleMobile.html?id=post3",
         imageUrls: "images/pexels-polina-kovaleva-6543489.jpg"
     },
     {
         id: "post4",
         title: `Blepharoplasty (Eyelid Aesthetics)`,
-        description: `Eyelids may sag and loosen during the aging process, resulting in a tired, older, and melancholic appearance.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post4",
+        buttonUrl: "blogSingleMobile.html?id=post4",
         imageUrls: "images/sagging eyelid.png"
     },
     {
         id: "post5",
         title: `A New Nose, A New Confidence`,
-        description: `Every individual has their own unique sense of beauty. For many people, one way to enhance their self-confidence and 
-        improve their aesthetic appearance is through rhinoplasty, also known as a nose job.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post5",
+        buttonUrl: "blogSingleMobile.html?id=post5",
         imageUrls: "images/nose-dummy.jpg"
     },
     {
         id: "post6",
         title: `Face and Forehead Lift (French Lift)`,
-        description: `Face and forehead lift is a surgical procedure performed to correct the signs of aging in the face and forehead region. 
-        The face lift procedure aims to reposition the sagging skin and muscle tissues of the face to achieve a younger 
-        appearance.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post6",
+        buttonUrl: "blogSingleMobile.html?id=post6",
         imageUrls: "images/nose-dummy.jpg"
     },
     {
         id: "post7",
         title: `What is Dental Implant Treatment?`,
-        description: `Dental implant treatment involves the placement of an artificial tooth root to replace a missing tooth. It is performed 
-        to restore a lost tooth both aesthetically and functionally. Dental implants are typically made of biocompatible materials 
-        such as titanium and are integrated into the jawbone.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post7",
+        buttonUrl: "blogSingleMobile.html?id=post7",
         imageUrls: "images/teeth-aesth1.jpg"
     },
     {
         id: "post8",
         title: `Dermal Filler`,
-        description: `Dermal filler is a cosmetic treatment involving injections under the skin. This treatment is used to correct 
-        wrinkles on the skin, enhance facial contours, or restore volume to areas experiencing loss. Dermal filler substances are 
-        typically made of biologically compatible materials such as hyaluronic acid, calcium hydroxylapatite, or polylactic acid.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post8",
+        buttonUrl: "blogSingleMobile.html?id=post8",
         imageUrls: "images/skin.jpg"
     },
     {
         id: "post9",
         title: `In-vitro fertilization (IVF)`,
-        description: `In-vitro fertilization (IVF) is a medical procedure and one of the most commonly used assisted reproductive 
-        technologies for couples facing infertility issues.It is a fertility treatment method where an egg and sperm are 
-        combined outside the body in a laboratory dish (in vitro) to create an embryo.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post9",
+        buttonUrl: "blogSingleMobile.html?id=post9",
         imageUrls: "images/baby.jpg"
     },
     {
         id: "post10",
         title: `Learn More About Liposuction`,
-        description: `Liposuction is a surgical procedure performed to remove excess fat tissue from the body. It involves using a vacuum ,
-        device and a thin cannula to suction out fat cells. This reduces unwanted fat deposits and reshapes the body. Liposuction can be applied to areas such as the abdomen, waist, hips, thighs, knees, upper arms, neck, and chin. It is 
-        commonly chosen to reduce excess fat deposits in these areas and improve body contours.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post10",
+        buttonUrl: "blogSingleMobile.html?id=post10",
         imageUrls: "images/liposux2.jpg"
     },
     {
         id: "post11",
         title: `What are Arm and Leg Lift Surgeries`,
-        description: `Arm-leg lift surgery" typically refers to a surgical procedure performed to correct skin sagging caused by bariatric
-        surgery or aging. Bariatric surgery involves surgical interventions aimed at weight loss for individuals who are 
-        severely overweight or obese. Significant weight loss resulting from such surgeries can lead to substantial skin 
-        sagging. Skin sagging is particularly common in the arm, leg, and abdominal areas. The surgical procedure aims to 
-        address these issues and tighten the sagging skin, resulting in a more toned appearance.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post11",
+        buttonUrl: "blogSingleMobile.html?id=post11",
         imageUrls: "images/armlift.jpg"
     },
     {
         id: "post12",
         title: `Otoplasty`,
-        description: `Otoplasty is a surgical procedure performed to correct abnormalities in the shape or position of the outer ear, 
-        either congenital or resulting from trauma. Otoplasty is commonly performed on individuals with issues such as 
-        "protruding ears" or "lop ears. The purpose of otoplasty is to bring the ear into a more symmetrical position, prevent ears from protruding too far 
-        from the head, or correct abnormal folds or deformities in the ear's shape.`,
+        description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingle.html?id=post12",
+        buttonUrl: "blogSingleMobile.html?id=post12",
         imageUrls: "images/cauliflower-ear1.jpg"
+    },
+    {
+        id: "post13",
+        title: `TEETH WHITENING`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post13",
+        imageUrls: "images/teeth-aesth1.jpg"
+    },
+    {
+        id: "post14",
+        title: `ORTHODONTY`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post14",
+        imageUrls: "images/ortho4.png"
+    },
+    {
+        id: "post15",
+        title: `PERIDONTOLOGY`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post15",
+        imageUrls: "images/periodont1.png"
+    },
+    {
+        id: "post16",
+        title: `ORAL ODORS`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post16",
+        imageUrls: "images/halitosis3.png"
+    },
+    {
+        id: "post17",
+        title: `DENTAL IMPLANT`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post17",
+        imageUrls: "images/dental-implant5.png"
+    },
+    {
+        id: "post18",
+        title: `ENDODONTICS`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post17",
+        imageUrls: "images/endodontics2.png"
     },
 ];
 
