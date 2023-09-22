@@ -100,8 +100,40 @@ var blogPostsData = [
         title: `TEETH WHITENING`,
         description: ``,
         buttonLabel: `More >>`,
-        buttonUrl: "blogSingleMobile.html?id=post12",
-        imageUrls: "images/teeth-aesth4.jpg"
+        buttonUrl: "blogSingleMobile.html?id=post13",
+        imageUrls: "images/teeth-aesth1.jpg"
+    },
+    {
+        id: "post14",
+        title: `ORTHODONTY`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post14",
+        imageUrls: "images/ortho4.png"
+    },
+    {
+        id: "post15",
+        title: `PERIDONTOLOGY`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post15",
+        imageUrls: "images/periodont1.png"
+    },
+    {
+        id: "post16",
+        title: `ORAL ODORS`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post16",
+        imageUrls: "images/halitosis3.png"
+    },
+    {
+        id: "post17",
+        title: `DENTAL IMPLANT`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post17",
+        imageUrls: "images/halitosis3.png"
     },
 ];
 
