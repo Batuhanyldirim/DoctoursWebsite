@@ -133,7 +133,15 @@ var blogPostsData = [
         description: ``,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingleMobile.html?id=post17",
-        imageUrls: "images/halitosis3.png"
+        imageUrls: "images/dental-implant5.png"
+    },
+    {
+        id: "post18",
+        title: `ENDODONTICS`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post17",
+        imageUrls: "images/endodontics2.png"
     },
 ];
 
