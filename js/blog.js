@@ -143,6 +143,14 @@ var blogPostsData = [
         buttonUrl: "blogSingleMobile.html?id=post17",
         imageUrls: "images/endodontics2.png"
     },
+    {
+        id: "post19",
+        title: `LIPOSUCTION`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post18",
+        imageUrls: "images/liposux2.jpg"
+    },
 ];
 
 // Get the container element where the blog posts will be generated

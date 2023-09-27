@@ -143,6 +143,38 @@ var blogPostsData = [
         buttonUrl: "blogSingleMobile.html?id=post17",
         imageUrls: "images/endodontics2.png"
     },
+    {
+        id: "post19",
+        title: `Liposuction`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post19",
+        imageUrls: "images/liposux2.jpg"
+    },
+    {
+        id: "post20",
+        title: `Facial Aesthetics`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post20",
+        imageUrls: "images/foto001-2.jpg"
+    },
+    {
+        id: "post21",
+        title: `Abdominoplasty`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post21",
+        imageUrls: "images/tummy2.png"
+    },
+    {
+        id: "post22",
+        title: `Arm-Leg Lift Surgery`,
+        description: ``,
+        buttonLabel: `More >>`,
+        buttonUrl: "blogSingleMobile.html?id=post22",
+        imageUrls: "images/armlift.jpg"
+    },
 ];
 
 // Get the container element where the blog posts will be generated
