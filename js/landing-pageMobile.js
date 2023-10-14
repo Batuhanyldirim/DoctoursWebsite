@@ -48,6 +48,9 @@ window.addEventListener("scroll", function () {
         });
     }
 
+    console.log("scrollPercentage*10: ", (scrollPercentage - 0.015) * 10);
+
+    document.querySelector(".whyDoc2").style.opacity = (scrollPercentage - 0.01) * 10;
 
     if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
     else {
