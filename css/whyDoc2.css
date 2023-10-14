@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.whyDoc2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Comfortaa', cursive;
+}
+.whyDoc2Title{
+  font-weight: bold;
+  font-size: 5vw;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-family: 'Comfortaa', cursive;
+}
+.whyDoc2Cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.whyCol{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  color: black;
+  margin: 2%;
+/*   border: 1px solid black;
+  box-sizing: border-box;   */
+}
+.whyCol img{
+  display: flex;
+  align-items: center;
+  height: 40%;
+  justify-content: center;
+  margin: 0%;
+  margin-bottom: 5%;
+}
+.itemTitle{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20%;
+  font-size: 2vw;
+  font-family: 'Comfortaa', cursive;
+}
+.explanation{
+  text-align: center;
+  width: 80%;
+  font-size: 1.5vw;
+  font-family: 'Comfortaa', cursive;
+}
