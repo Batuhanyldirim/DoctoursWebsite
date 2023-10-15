@@ -21,11 +21,11 @@ window.addEventListener("scroll", function () {
     // Calculate the desired opacity based on the scroll percentage
     const desiredOpacity = 1 - scrollPercentage * 4;
     const desiredTop = -1000 * scrollPercentage;
-    const serviceAnimation = 1200 * scrollPercentage;
-    const servicesStart1 = -100;
-    const servicesStart2 = -150;
-    const servicesStart3 = -200;
-    const servicesStart4 = -250;
+    const serviceAnimation = 1400 * scrollPercentage;
+    const servicesStart1 = -500;
+    const servicesStart2 = -550;
+    const servicesStart3 = -600;
+    const servicesStart4 = -650;
 
 
     // Update the background color based on the scroll percentage
@@ -48,9 +48,11 @@ window.addEventListener("scroll", function () {
         });
     }
 
-    console.log("scrollPercentage*10: ", (scrollPercentage - 0.015) * 10);
+    console.log({ scrollPercentage });
+    console.log({ servicesStart1 });
+    console.log({ serviceAnimation });
 
-    document.querySelector(".whyDoc2").style.opacity = (scrollPercentage - 0.01) * 10;
+    document.querySelector(".whyDoc2").style.opacity = (scrollPercentage - 0.02) * 10;
 
     if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
     else {

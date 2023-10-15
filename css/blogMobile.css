@@ -20,6 +20,8 @@
 .blogItem {
   flex: 0 0 auto; /* Ensure each item takes up its content width */
   width: 80vw; /* Set the width of each blog item */
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .blogItem a {
