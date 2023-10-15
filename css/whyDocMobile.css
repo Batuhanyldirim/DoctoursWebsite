@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .whyDoc {
-  height: 690vw;
+  height: auto !important;
+  padding-top: 30vw;
   background-color: rgb(255, 255, 255);
   font-family: 'Comfortaa', cursive;
 }

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 #our-services {
-  margin-top: 60vw;     
+  margin-top: -5vw;     
 }
 .our-services {
   display:flex;
   position: relative;
-  height: 100vw;
+  height: auto;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;

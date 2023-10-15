@@ -54,21 +54,21 @@ window.addEventListener("scroll", function () {
 
     document.querySelector(".whyDoc2").style.opacity = (scrollPercentage - 0.02) * 10;
 
-    if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
+    /* if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
     else {
         document.querySelector(".service-container1").style.left = 0;
         reviceCheck1 = true;
-    }
+    } */
     if (servicesStart2 + serviceAnimation < 0 && !reviceCheck2) document.querySelector(".service-container2").style.left = `${servicesStart2 + serviceAnimation}%`;
     else {
         document.querySelector(".service-container2").style.left = 0;
         reviceCheck2 = true;
     }
-    if (servicesStart3 + serviceAnimation < 0 && !reviceCheck3) document.querySelector(".service-container3").style.left = `${servicesStart3 + serviceAnimation}%`;
+    /* if (servicesStart3 + serviceAnimation < 0 && !reviceCheck3) document.querySelector(".service-container3").style.left = `${servicesStart3 + serviceAnimation}%`;
     else {
         document.querySelector(".service-container3").style.left = 0;
         reviceCheck3 = true;
-    }
+    } */
     if (servicesStart4 + serviceAnimation < 0 && !reviceCheck4) document.querySelector(".service-container4").style.left = `${servicesStart4 + serviceAnimation}%`;
     else {
         document.querySelector(".service-container4").style.left = 0;
