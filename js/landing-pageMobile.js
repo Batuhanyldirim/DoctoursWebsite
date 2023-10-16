@@ -48,9 +48,7 @@ window.addEventListener("scroll", function () {
         });
     }
 
-    console.log({ scrollPercentage });
-    console.log({ servicesStart1 });
-    console.log({ serviceAnimation });
+
 
     document.querySelector(".whyDoc2").style.opacity = (scrollPercentage - 0.02) * 10;
 

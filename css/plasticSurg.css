@@ -19,6 +19,11 @@
     margin-bottom: -60px;
 }
 
+.plasticSurg p{
+    margin: 0;
+    margin-bottom: 2%;
+}
+
 .left {
     flex: 3
 }
@@ -98,23 +103,24 @@
 
 .services-text1 {
     font-size: 1.5vw;
-    height: 40%;
+    height: 43%;
     width: 38%;
     color: rgb(229,1,125);
     display: none;
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 25%;
     transform: translate(-50%, -50%);
     border: 1px solid #e5017d;
     border-radius: 45px;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
   }
 
   .services-text1 .inner-text  {
     padding-left: 5%;
-    padding-top: 40%;
+    padding-top: 45%;
     margin: 0; /* Remove any default margins */
     position: relative; /* Allow vertical alignment */
     width: 70%;
@@ -125,23 +131,24 @@
 
   .services-text2 {
     font-size: 1.5vw;
-    height: 50%;
-    width: 30%;
+    height: 55%;
+    width: 35%;
     color: rgb(229,1,125);
     display: none;
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 19%;
     transform: translate(-50%, -50%);
     border: 1px solid #e5017d;
     border-radius: 45px;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
   }
 
 .services-text2 .inner-text  {
     padding-left: 5%;
-    padding-top: 60%;
+    padding-top: 65%;
     margin: 0; /* Remove any default margins */
     position: relative; /* Allow vertical alignment */
     width: 65%;
@@ -153,8 +160,8 @@
 
 .services-text3 {
     font-size: 1.5vw;
-    height: 35%;
-    width: 40%;
+    height: 38%;
+    width: 45%;
     color: rgb(229,1,125);
     display: none;
     position: absolute;
@@ -165,11 +172,12 @@
     border-radius: 45px;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
   }
 
 .services-text3 .inner-text  {
     padding-left: 5%;
-    padding-top: 32%;
+    padding-top: 34%;
     margin: 0; /* Remove any default margins */
     position: relative; /* Allow vertical alignment */
     width: 70%;
@@ -181,7 +189,7 @@
 .services-text4 {
     font-size: 1.5vw;
     height: 35%;
-    width: 40%;
+    width: 43%;
     color: rgb(229,1,125);
     display: none;
     position: absolute;
@@ -192,6 +200,7 @@
     border-radius: 45px;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
   }
 
 .services-text4 .inner-text  {
@@ -207,7 +216,7 @@
 
 .services-text5 {
     font-size: 1.5vw;
-    height: 45%;
+    height: 55%;
     width: 34%;
     color: rgb(229,1,125);
     display: none;
@@ -219,11 +228,12 @@
     border-radius: 45px;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
   }
 
 .services-text5 .inner-text  {
     padding-left: 30%;
-    padding-top: 50%;
+    padding-top: 67%;
     margin: 0; /* Remove any default margins */
     position: relative; /* Allow vertical alignment */
     width: 65%;
@@ -235,8 +245,8 @@
 
 .services-text6 {
     font-size: 1.5vw;
-    height: 35%;
-    width: 40%;
+    height: 40%;
+    width: 45%;
     color: rgb(229,1,125);
     display: none;
     position: absolute;
@@ -247,11 +257,12 @@
     border-radius: 45px;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
   }
 
 .services-text6 .inner-text  {
-    padding-left: 25%;
-    padding-top: 32%;
+    padding-left: 30%;
+    padding-top: 35%;
     margin: 0; /* Remove any default margins */
     position: relative; /* Allow vertical alignment */
     width: 70%;
@@ -259,6 +270,11 @@
     text-align:left; 
     font-family: 'Comfortaa', cursive;
 }
+.moreInfo{
+    color:black;
+    text-align: center;
+}
+
   
 
   
