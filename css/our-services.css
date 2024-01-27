@@ -37,16 +37,16 @@ flex: 3
 .dental {
   position: absolute;
   top: 10%;
-  left: 35%;
-  width: 20vw;
+  left: 10%;
+  width: 30vw;
   height: auto;
   z-index: 1;
 }
 .plastic {
   position: absolute;
-  top: 25%;
-  left: 9%;
-  width: 20vw;
+  top: 50%;
+  left: 35%;
+  width: 30vw;
   height: auto;
   z-index: 1;
 }
