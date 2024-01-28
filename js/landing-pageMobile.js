@@ -52,11 +52,11 @@ window.addEventListener("scroll", function () {
 
     document.querySelector(".whyDoc2").style.opacity = (scrollPercentage - 0.02) * 10;
 
-    /* if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
+    if (servicesStart1 + serviceAnimation < 0 && !reviceCheck1) document.querySelector(".service-container1").style.left = `${servicesStart1 + serviceAnimation}%`;
     else {
         document.querySelector(".service-container1").style.left = 0;
         reviceCheck1 = true;
-    } */
+    }
     if (servicesStart2 + serviceAnimation < 0 && !reviceCheck2) document.querySelector(".service-container2").style.left = `${servicesStart2 + serviceAnimation}%`;
     else {
         document.querySelector(".service-container2").style.left = 0;
