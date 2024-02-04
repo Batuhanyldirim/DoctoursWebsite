@@ -38,15 +38,15 @@ flex: 3
   position: absolute;
   top: 10%;
   left: 10%;
-  width: 30vw;
+  width: 25vw;
   height: auto;
   z-index: 1;
 }
 .plastic {
   position: absolute;
-  top: 50%;
-  left: 35%;
-  width: 30vw;
+  top: 40%;
+  left: 40%;
+  width: 25vw;
   height: auto;
   z-index: 1;
 }
@@ -61,8 +61,8 @@ flex: 3
 .hair {
   position: absolute;
   top: 65%;
-  left: 15%;
-  width: 20vw;
+  left: 10%;
+  width: 25vw;
   height: auto;
   z-index: 1;
 }
