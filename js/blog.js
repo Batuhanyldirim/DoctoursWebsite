@@ -55,7 +55,7 @@ var blogPostsData = [
         appearance, while the forehead lift targets wrinkles and sagging in the forehead.`,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post6",
-        imageUrls: "images/nose-dummy.jpg"
+        imageUrls: "images/forehead-lift1.png"
     },
     {
         id: "post7",
@@ -124,7 +124,7 @@ var blogPostsData = [
         used methods of teeth whitening: At-Home Teeth Whitening Kits, In-Office Teeth Whitening, Veneers, Dental Crowns, `,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post13",
-        imageUrls: "images/teeth-aesth1.jpg"
+        imageUrls: "images/teeth-aesth2.png"
     },
     {
         id: "post14",

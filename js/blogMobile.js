@@ -45,7 +45,7 @@ var blogPostsData = [
         description: ``,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingleMobile.html?id=post6",
-        imageUrls: "images/nose-dummy.jpg"
+        imageUrls: "images/forehead-lift1.png"
     },
     {
         id: "post7",
@@ -101,7 +101,7 @@ var blogPostsData = [
         description: ``,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingleMobile.html?id=post13",
-        imageUrls: "images/teeth-aesth1.jpg"
+        imageUrls: "images/teeth-aesth2.png"
     },
     {
         id: "post14",
