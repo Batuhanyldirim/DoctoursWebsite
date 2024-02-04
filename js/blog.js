@@ -76,14 +76,14 @@ var blogPostsData = [
         buttonUrl: "blogSingle.html?id=post8",
         imageUrls: "images/skin.jpg"
     },
-    {
+    /* {
         id: "post9",
         title: `In-vitro fertilization (IVF)`,
         description: ``,
         buttonLabel: `More >>`,
         buttonUrl: "blogSingle.html?id=post9",
         imageUrls: "images/baby.jpg"
-    },
+    }, */
     {
         id: "post10",
         title: `Learn More About Liposuction`,
