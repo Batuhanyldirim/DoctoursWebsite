@@ -142,7 +142,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
         submitButton.style.display = "none";
         formTitle.style.top = "30%";
         formTitle.textContent = "Message is sending...";
-        fetch("https://bwin4nbzb5.execute-api.eu-north-1.amazonaws.com/mailDeneme1", {
+        fetch("https://z9e53ofn7k.execute-api.eu-west-2.amazonaws.com/DoctoursMailSenderFunction", {
             method: "POST",
             body: JSON.stringify(formDataJson),
             headers: {
@@ -188,7 +188,7 @@ document.getElementById("contactFormBottom").addEventListener("submit", function
         submitButtonBottom.style.display = "none";
         formTitleBottom.style.top = "30%";
         formTitleBottom.textContent = "Message is sending...";
-        fetch("https://bwin4nbzb5.execute-api.eu-north-1.amazonaws.com/mailDeneme1", {
+        fetch("https://z9e53ofn7k.execute-api.eu-west-2.amazonaws.com/DoctoursMailSenderFunction", {
             method: "POST",
             body: JSON.stringify(formDataJson),
             headers: {
